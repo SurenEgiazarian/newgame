@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>game</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+        <div class="screen2-hat">
+            <div>
+                <div class="timer-name-div">
+                    <p class="timer-name min">min</p>
+                    <p class="timer-name sec">sec</p>
+                </div>
+                <h2 class="timer">
+                    <span id="minutes">00</span>.<span id="seconds">00</span>
+                </h2>
+            </div>
+            <a href="index.html">
+                <button class="button-again">Начать заново</button>
+            </a>
+        </div>
+        <div class="cards-div">
+            <div class="cards-first">
+                <div class="card-row row1"></div>
+            </div>
+            <div class="cards">
+                <div class="card-row row2"></div>
+            </div>
+            <div class="cards">
+                <div class="card-row row3"></div>
+            </div>
+        </div>
+        <script src="cards.ts"></script>
+        <script src="game.ts"></script>
+    </body>
+</html>

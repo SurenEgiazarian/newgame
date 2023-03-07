@@ -1,12 +1,290 @@
 /******/ ;(() => {
     // webpackBootstrap
-    /******/ 'use strict'
     /******/ var __webpack_modules__ = {
+        /***/ './cards.js':
+            /*!******************!*\
+  !*** ./cards.js ***!
+  \******************/
+            /***/ () => {
+                const cardArr = [
+                    {
+                        suit: 'peaks',
+                        rang: '6',
+                        src: 'img/6 пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: '7',
+                        src: 'img/7 пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: '8',
+                        src: 'img/8 пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: '9',
+                        src: 'img/9 пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: '10',
+                        src: 'img/10 пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: 'j',
+                        src: 'img/валет пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: 'q',
+                        src: 'img/дама пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: 'k',
+                        src: 'img/король пики.svg',
+                    },
+
+                    {
+                        suit: 'peaks',
+                        rang: 'a',
+                        src: 'img/туз пики.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: '6',
+                        src: 'img/6 черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: '7',
+                        src: 'img/7 черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: '8',
+                        src: 'img/8 черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: '9',
+                        src: 'img/9 черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: '10',
+                        src: 'img/10 черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: 'j',
+                        src: 'img/валет черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: 'q',
+                        src: 'img/дама черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: 'k',
+                        src: 'img/король черви.svg',
+                    },
+
+                    {
+                        suit: 'hearts',
+                        rang: 'a',
+                        src: 'img/туз черви.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '6',
+                        src: 'img/6 бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '7',
+                        src: 'img/7 бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '8',
+                        src: 'img/8 бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '9',
+                        src: 'img/9 бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '10',
+                        src: 'img/10 бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: 'j',
+                        src: 'img/валет бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: 'q',
+                        src: 'img/дама бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: 'k',
+                        src: 'img/король бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: 'a',
+                        src: 'img/туз бубны.svg',
+                    },
+
+                    {
+                        suit: 'diamonds',
+                        rang: '6',
+                        src: 'img/6 бубны.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '6',
+                        src: 'img/6 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '7',
+                        src: 'img/7 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '8',
+                        src: 'img/8 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '9',
+                        src: 'img/9 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '9',
+                        src: 'img/9 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: '10',
+                        src: 'img/10 крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: 'j',
+                        src: 'img/валет крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: 'q',
+                        src: 'img/дама крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: 'k',
+                        src: 'img/король крести.svg',
+                    },
+
+                    {
+                        suit: 'clubs',
+                        rang: 'a',
+                        src: 'img/туз крести.svg',
+                    },
+                ]
+
+                /***/
+            },
+
+        /***/ './difficulty.js':
+            /*!***********************!*\
+  !*** ./difficulty.js ***!
+  \***********************/
+            /***/ () => {
+                document.querySelector('.b1').addEventListener('click', () => {
+                    window.difficulty = 1
+                    localStorage.setItem('difficulty', window.difficulty)
+                    console.log(window.difficulty)
+                })
+
+                document.querySelector('.b2').addEventListener('click', () => {
+                    window.difficulty = 2
+                    localStorage.setItem('difficulty', window.difficulty)
+                    console.log(window.difficulty)
+                })
+
+                document.querySelector('.b3').addEventListener('click', () => {
+                    window.difficulty = 3
+                    localStorage.setItem('difficulty', window.difficulty)
+                    console.log(window.difficulty)
+                })
+
+                /***/
+            },
+
+        /***/ './index.js':
+            /*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+            /***/ () => {
+                /* eslint-disable prettier/prettier */
+
+                window = {
+                    difficulty: 0,
+                }
+
+                /***/
+            },
+
         /***/ './node_modules/css-loader/dist/cjs.js!./index.css':
             /*!*********************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./index.css ***!
   \*********************************************************/
             /***/ (module, __webpack_exports__, __webpack_require__) => {
+                'use strict'
                 __webpack_require__.r(__webpack_exports__)
                 /* harmony export */ __webpack_require__.d(
                     __webpack_exports__,
@@ -69,20 +347,20 @@
                 // Module
                 ___CSS_LOADER_EXPORT___.push([
                     module.id,
-                    "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url(" +
+                    "* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n@font-face {\r\n    font-family: Stratos;\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    src: local('Stratos'),\r\n        url(" +
                         ___CSS_LOADER_URL_REPLACEMENT_0___ +
-                        ") format('woff2'),\n        url(" +
+                        ") format('woff2'),\r\n        url(" +
                         ___CSS_LOADER_URL_REPLACEMENT_1___ +
-                        ") format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
+                        ") format('woff');\r\n}\r\n\r\nbody {\r\n    font-family: Stratos, sans-serif;\r\n    background-color: #004980;\r\n}\r\n\r\n.win-img {\r\n    padding-top: 30px;\r\n    padding-left: 184px;\r\n}\r\n\r\n.win-text {\r\n    color: #004980;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    padding-top: 4px;\r\n    padding-left: 112px;\r\n}\r\n\r\n.div-lose {\r\n    position: fixed;\r\n    z-index: 9;\r\n    margin: 20px;\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    margin-left: calc(50% - 240px);\r\n    margin-top: 229px;\r\n}\r\n\r\n.lose-img {\r\n    padding-top: 30px;\r\n    padding-left: 184px;\r\n}\r\n\r\n.lose-text {\r\n    color: #004980;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    padding-top: 4px;\r\n    padding-left: 112px;\r\n}\r\n\r\n.time-spent-title {\r\n    color: #000;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    padding-top: 28px;\r\n    padding-left: 125px;\r\n}\r\n\r\n.time-spent {\r\n    color: #000;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n    padding-top: 10px;\r\n    padding-left: 163px;\r\n}\r\n\r\n.screen2-hat {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.timer-name {\r\n    font-weight: 28px;\r\n    font-size: 16px;\r\n    line-height: 32px;\r\n    color: #fff;\r\n}\r\n\r\n.timer-name-div {\r\n    display: flex;\r\n}\r\n\r\n.button-again-win {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    color: #fff;\r\n    width: 246px;\r\n    height: 50px;\r\n    border: none;\r\n    border-radius: 12px;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-top: 40px;\r\n    margin-left: 117px;\r\n}\r\n\r\n.div-win {\r\n    position: fixed;\r\n    z-index: 9;\r\n    margin: 20px;\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    margin-left: calc(50% - 240px);\r\n    margin-top: 229px;\r\n}\r\n\r\n.body-center {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n}\r\n\r\n.main {\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    display: flex;\r\n    align-items: center;\r\n    flex-direction: column;\r\n    margin-top: 158px;\r\n}\r\n\r\n.h1 {\r\n    color: #004980;\r\n    text-align: center;\r\n    font-weight: 400;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    margin-top: 52px;\r\n}\r\n\r\n.d123 {\r\n    display: flex;\r\n    gap: 24px;\r\n}\r\n\r\n.button {\r\n    box-sizing: border-box;\r\n    width: 98px;\r\n    height: 98px;\r\n    background-color: #fff;\r\n    border-radius: 12px;\r\n    border: none;\r\n    margin-top: 48px;\r\n    color: #0080c1;\r\n    font-weight: 97px;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n}\r\n\r\n.button-start {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    width: 246px;\r\n    height: 50px;\r\n    border-radius: 12px;\r\n    border: none;\r\n    color: #fff;\r\n    font-weight: 400;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-top: 67px;\r\n}\r\n\r\n.screen2-hat {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.timer-name {\r\n    font-weight: 28px;\r\n    font-size: 16px;\r\n    line-height: 32px;\r\n    color: #fff;\r\n}\r\n\r\n.timer-name-div {\r\n    display: flex;\r\n}\r\n\r\n.min {\r\n    margin-top: 22px;\r\n    margin-left: 61px;\r\n}\r\n\r\n.sec {\r\n    margin-top: 22px;\r\n    margin-left: 57px;\r\n}\r\n\r\n.timer {\r\n    color: #fff;\r\n    font-weight: 400;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n    margin-left: 35px;\r\n}\r\n\r\n.button-again {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    color: #fff;\r\n    width: 246px;\r\n    height: 50px;\r\n    border: none;\r\n    border-radius: 12px;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-right: 23px;\r\n    margin-top: 52px;\r\n}\r\n\r\n.cards-first {\r\n    margin: 35px 23px 15px 26px;\r\n}\r\n\r\n.cards {\r\n    margin: 15px 23px 15px 26px;\r\n}\r\n\r\n.card-row {\r\n    display: flex;\r\n    gap: 15px;\r\n}\r\n\r\n.cards-div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n",
                     '',
                     {
                         version: 3,
                         sources: ['webpack://./index.css'],
                         names: [],
                         mappings:
-                            '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',
+                            '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',
                         sourcesContent: [
-                            "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url('Stratos/Web fonts/stratosskyengweb-black.woff2') format('woff2'),\n        url('Stratos/Web Fonts/stratosskyengweb-black.woff') format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
+                            "* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n@font-face {\r\n    font-family: Stratos;\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    src: local('Stratos'),\r\n        url('Stratos/Web fonts/stratosskyengweb-black.woff2') format('woff2'),\r\n        url('Stratos/Web Fonts/stratosskyengweb-black.woff') format('woff');\r\n}\r\n\r\nbody {\r\n    font-family: Stratos, sans-serif;\r\n    background-color: #004980;\r\n}\r\n\r\n.win-img {\r\n    padding-top: 30px;\r\n    padding-left: 184px;\r\n}\r\n\r\n.win-text {\r\n    color: #004980;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    padding-top: 4px;\r\n    padding-left: 112px;\r\n}\r\n\r\n.div-lose {\r\n    position: fixed;\r\n    z-index: 9;\r\n    margin: 20px;\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    margin-left: calc(50% - 240px);\r\n    margin-top: 229px;\r\n}\r\n\r\n.lose-img {\r\n    padding-top: 30px;\r\n    padding-left: 184px;\r\n}\r\n\r\n.lose-text {\r\n    color: #004980;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    padding-top: 4px;\r\n    padding-left: 112px;\r\n}\r\n\r\n.time-spent-title {\r\n    color: #000;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    padding-top: 28px;\r\n    padding-left: 125px;\r\n}\r\n\r\n.time-spent {\r\n    color: #000;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n    padding-top: 10px;\r\n    padding-left: 163px;\r\n}\r\n\r\n.screen2-hat {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.timer-name {\r\n    font-weight: 28px;\r\n    font-size: 16px;\r\n    line-height: 32px;\r\n    color: #fff;\r\n}\r\n\r\n.timer-name-div {\r\n    display: flex;\r\n}\r\n\r\n.button-again-win {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    color: #fff;\r\n    width: 246px;\r\n    height: 50px;\r\n    border: none;\r\n    border-radius: 12px;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-top: 40px;\r\n    margin-left: 117px;\r\n}\r\n\r\n.div-win {\r\n    position: fixed;\r\n    z-index: 9;\r\n    margin: 20px;\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    margin-left: calc(50% - 240px);\r\n    margin-top: 229px;\r\n}\r\n\r\n.body-center {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n}\r\n\r\n.main {\r\n    background-color: #c2f5ff;\r\n    height: 459px;\r\n    width: 480px;\r\n    border-radius: 12px;\r\n    display: flex;\r\n    align-items: center;\r\n    flex-direction: column;\r\n    margin-top: 158px;\r\n}\r\n\r\n.h1 {\r\n    color: #004980;\r\n    text-align: center;\r\n    font-weight: 400;\r\n    font-size: 40px;\r\n    line-height: 48px;\r\n    margin-top: 52px;\r\n}\r\n\r\n.d123 {\r\n    display: flex;\r\n    gap: 24px;\r\n}\r\n\r\n.button {\r\n    box-sizing: border-box;\r\n    width: 98px;\r\n    height: 98px;\r\n    background-color: #fff;\r\n    border-radius: 12px;\r\n    border: none;\r\n    margin-top: 48px;\r\n    color: #0080c1;\r\n    font-weight: 97px;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n}\r\n\r\n.button-start {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    width: 246px;\r\n    height: 50px;\r\n    border-radius: 12px;\r\n    border: none;\r\n    color: #fff;\r\n    font-weight: 400;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-top: 67px;\r\n}\r\n\r\n.screen2-hat {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.timer-name {\r\n    font-weight: 28px;\r\n    font-size: 16px;\r\n    line-height: 32px;\r\n    color: #fff;\r\n}\r\n\r\n.timer-name-div {\r\n    display: flex;\r\n}\r\n\r\n.min {\r\n    margin-top: 22px;\r\n    margin-left: 61px;\r\n}\r\n\r\n.sec {\r\n    margin-top: 22px;\r\n    margin-left: 57px;\r\n}\r\n\r\n.timer {\r\n    color: #fff;\r\n    font-weight: 400;\r\n    font-size: 64px;\r\n    line-height: 72px;\r\n    margin-left: 35px;\r\n}\r\n\r\n.button-again {\r\n    box-sizing: border-box;\r\n    background-color: #7ac100;\r\n    color: #fff;\r\n    width: 246px;\r\n    height: 50px;\r\n    border: none;\r\n    border-radius: 12px;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-right: 23px;\r\n    margin-top: 52px;\r\n}\r\n\r\n.cards-first {\r\n    margin: 35px 23px 15px 26px;\r\n}\r\n\r\n.cards {\r\n    margin: 15px 23px 15px 26px;\r\n}\r\n\r\n.card-row {\r\n    display: flex;\r\n    gap: 15px;\r\n}\r\n\r\n.cards-div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n",
                         ],
                         sourceRoot: '',
                     },
@@ -99,6 +377,8 @@
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
             /***/ (module) => {
+                'use strict'
+
                 /*
   MIT License http://www.opensource.org/licenses/mit-license.php
   Author Tobias Koppers @sokra
@@ -213,6 +493,8 @@
   !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
   \********************************************************/
             /***/ (module) => {
+                'use strict'
+
                 module.exports = function (url, options) {
                     if (!options) {
                         options = {}
@@ -249,6 +531,8 @@
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
   \************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 module.exports = function (item) {
                     var content = item[1]
                     var cssMapping = item[3]
@@ -283,6 +567,7 @@
                 __webpack_exports__,
                 __webpack_require__
             ) => {
+                'use strict'
                 __webpack_require__.r(__webpack_exports__)
                 /* harmony export */ __webpack_require__.d(
                     __webpack_exports__,
@@ -391,6 +676,8 @@
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \****************************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 var stylesInDOM = []
 
                 function getIndexByIdentifier(identifier) {
@@ -508,6 +795,8 @@
   !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
   \********************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 var memo = {}
                 /* istanbul ignore next  */
 
@@ -558,6 +847,8 @@
   !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
   \**********************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 /* istanbul ignore next  */
                 function insertStyleElement(options) {
                     var element = document.createElement('style')
@@ -576,6 +867,8 @@
   !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
   \**********************************************************************************/
             /***/ (module, __unused_webpack_exports, __webpack_require__) => {
+                'use strict'
+
                 /* istanbul ignore next  */
                 function setAttributesWithoutAttributes(styleElement) {
                     var nonce = true ? __webpack_require__.nc : 0
@@ -595,6 +888,8 @@
   !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
   \***************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 /* istanbul ignore next  */
                 function apply(styleElement, options, obj) {
                     var css = ''
@@ -687,6 +982,8 @@
   !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
   \*********************************************************************/
             /***/ (module) => {
+                'use strict'
+
                 /* istanbul ignore next  */
                 function styleTagTransform(css, styleElement) {
                     if (styleElement.styleSheet) {
@@ -710,6 +1007,7 @@
   !*** ./Stratos/Web Fonts/stratosskyengweb-black.woff ***!
   \*******************************************************/
             /***/ (module, __unused_webpack_exports, __webpack_require__) => {
+                'use strict'
                 module.exports =
                     __webpack_require__.p + 'e23eaa28311b694d782e.woff'
 
@@ -721,6 +1019,7 @@
   !*** ./Stratos/Web fonts/stratosskyengweb-black.woff2 ***!
   \********************************************************/
             /***/ (module, __unused_webpack_exports, __webpack_require__) => {
+                'use strict'
                 module.exports =
                     __webpack_require__.p + '3e7fbd1c96136268b439.woff2'
 
@@ -890,7 +1189,7 @@
         /******/ // undefined = chunk not loaded, null = chunk preloaded/prefetched
         /******/ // [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
         /******/ var installedChunks = {
-            /******/ start: 0,
+            /******/ main: 0,
             /******/
         }
         /******/
@@ -919,35 +1218,151 @@
     /******/
     /************************************************************************/
     var __webpack_exports__ = {}
-    // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+    // This entry need to be wrapped in an IIFE because it need to be in strict mode.
     ;(() => {
-        var __webpack_exports__ = {}
-        /*!***********************!*\
-  !*** ./difficulty.ts ***!
-  \***********************/
+        'use strict'
+        /*!*****************!*\
+  !*** ./game.js ***!
+  \*****************/
         __webpack_require__.r(__webpack_exports__)
         /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ =
-            __webpack_require__(/*! ../../../../index.css */ './index.css')
+            __webpack_require__(/*! ./index.css */ './index.css')
+        /* harmony import */ var _cards_js__WEBPACK_IMPORTED_MODULE_1__ =
+            __webpack_require__(/*! ./cards.js */ './cards.js')
+        /* harmony import */ var _cards_js__WEBPACK_IMPORTED_MODULE_1___default =
+            /*#__PURE__*/ __webpack_require__.n(
+                _cards_js__WEBPACK_IMPORTED_MODULE_1__
+            )
+        /* harmony import */ var _difficulty_js__WEBPACK_IMPORTED_MODULE_2__ =
+            __webpack_require__(/*! ./difficulty.js */ './difficulty.js')
+        /* harmony import */ var _difficulty_js__WEBPACK_IMPORTED_MODULE_2___default =
+            /*#__PURE__*/ __webpack_require__.n(
+                _difficulty_js__WEBPACK_IMPORTED_MODULE_2__
+            )
+        /* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_3__ =
+            __webpack_require__(/*! ./index.js */ './index.js')
+        /* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_3___default =
+            /*#__PURE__*/ __webpack_require__.n(
+                _index_js__WEBPACK_IMPORTED_MODULE_3__
+            )
 
-        document.querySelector('.b1').addEventListener('click', function () {
-            localStorage.setItem('difficulty', '1')
-        })
-        document.querySelector('.b2').addEventListener('click', function () {
-            localStorage.setItem('difficulty', '2')
-        })
-        document.querySelector('.b3').addEventListener('click', function () {
-            localStorage.setItem('difficulty', '3')
-        })
-    })()
+        var row = document.querySelector('.row1')
+        var size = 0
+        var rowsize = 0
+        const shuffledcards = cardArr.sort(() => 0.5 - Math.random())
+        switch (localStorage.getItem('difficulty')) {
+            case '1':
+                size = 6
+                rowsize = 2
+                break
+            case '2':
+                size = 12
+                rowsize = 4
+                break
+            case '3':
+                size = 18
+                rowsize = 6
+                break
+        }
 
-    // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
-    ;(() => {
-        /*!******************!*\
-  !*** ./index.ts ***!
-  \******************/
-        __webpack_require__.r(__webpack_exports__)
+        let selected = shuffledcards.slice(38 - size / 2)
+        selected = selected.concat(selected.slice(0))
+        selected.sort(() => 0.5 - Math.random())
+        var i = 1
+        var currow = '1'
+        selected.forEach((element) => {
+            const div = document.createElement('div')
+            const backimg = document.createElement('img')
+            backimg.src = element.src
+            div.classList.add('card')
+            div.setAttribute('data-rang', element.rang)
+            div.setAttribute('data-suit', element.suit)
+            div.appendChild(backimg)
+            row.appendChild(div)
+
+            i++
+            if (i === rowsize + 1) {
+                i = 1
+                currow++
+                row = document.querySelector('.row' + currow)
+            }
+        })
+        const cards = document.querySelectorAll('.card')
+        var card1 = null
+        var card2 = null
+        var opened_cards = 0
+
+        var seconds = 0
+        var minutes = 0
+        var appendMinutes = document.getElementById('minutes')
+        var appendSeconds = document.getElementById('seconds')
+        var Interval
+
+        function startTimer() {
+            seconds++
+
+            if (seconds <= 9) {
+                appendSeconds.innerHTML = '0' + seconds
+            }
+
+            if (seconds > 9) {
+                appendSeconds.innerHTML = seconds
+            }
+
+            if (seconds > 59) {
+                console.log('minutes')
+                minutes++
+                appendMinutes.innerHTML = '0' + minutes
+                seconds = 0
+                appendSeconds.innerHTML = '0' + 0
+            }
+            if (minutes > 9) {
+                appendMinutes.innerHTML = minutes
+            }
+        }
+
+        setTimeout(function () {
+            cards.forEach((card) => {
+                card.querySelector('img').src = 'img/рубашка.svg'
+            })
+            clearInterval(Interval)
+            Interval = setInterval(startTimer, 1000)
+            cards.forEach((card) => {
+                card.addEventListener('click', function (event) {
+                    console.log(card.querySelector('img').src)
+                    card.querySelector('img').src = cardArr.find(
+                        (element) =>
+                            element.rang === card.dataset.rang &&
+                            element.suit === card.dataset.suit
+                    ).src
+                    console.log(card.src)
+                    if (card1 === null) card1 = card
+                    else {
+                        card2 = card
+                        console.log(card1)
+                        console.log(card2)
+                        if (
+                            card1.dataset.rang !== card2.dataset.rang ||
+                            card1.dataset.suit !== card2.dataset.suit
+                        ) {
+                            setTimeout(function () {
+                                alert('Вы проиграли')
+                            }, 10)
+                            clearInterval(Interval)
+                        }
+                        opened_cards += 2
+                        if (opened_cards == size)
+                            setTimeout(function () {
+                                alert('Вы выиграли!')
+                            }, 10)
+                        card1 = null
+                        card2 = null
+                    }
+                })
+            })
+        }, 5000)
     })()
 
     /******/
 })()
-//# sourceMappingURL=start.js.map
+//# sourceMappingURL=bundle.js.map
