@@ -1,403 +1,340 @@
-/******/ ;(() => {
-    // webpackBootstrap
-    /******/ var __webpack_modules__ = {
-        /***/ './node_modules/css-loader/dist/cjs.js!./index.css':
-            /*!*********************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./index.css ***!
-  \*********************************************************/
-            /***/ (module, __webpack_exports__, __webpack_require__) => {
-                'use strict'
-                __webpack_require__.r(__webpack_exports__)
-                /* harmony export */ __webpack_require__.d(
-                    __webpack_exports__,
-                    {
-                        /* harmony export */ default: () =>
-                            __WEBPACK_DEFAULT_EXPORT__,
-                        /* harmony export */
-                    }
+;(() => {
+    var __webpack_modules__ = {
+        './node_modules/css-loader/dist/cjs.js!./index.css': (
+            module,
+            __webpack_exports__,
+            __webpack_require__
+        ) => {
+            'use strict'
+            __webpack_require__.r(__webpack_exports__)
+            __webpack_require__.d(__webpack_exports__, {
+                default: () => __WEBPACK_DEFAULT_EXPORT__,
+            })
+            var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ =
+                __webpack_require__(
+                    './node_modules/css-loader/dist/runtime/sourceMaps.js'
                 )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ =
-                    __webpack_require__(
-                        /*! ./node_modules/css-loader/dist/runtime/sourceMaps.js */ './node_modules/css-loader/dist/runtime/sourceMaps.js'
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ =
-                    __webpack_require__(
-                        /*! ./node_modules/css-loader/dist/runtime/api.js */ './node_modules/css-loader/dist/runtime/api.js'
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ =
-                    __webpack_require__(
-                        /*! ./node_modules/css-loader/dist/runtime/getUrl.js */ './node_modules/css-loader/dist/runtime/getUrl.js'
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__
-                    )
-                // Imports
-
-                var ___CSS_LOADER_URL_IMPORT_0___ = new URL(
-                    /* asset import */ __webpack_require__(
-                        /*! Stratos/Web fonts/stratosskyengweb-black.woff2 */ './Stratos/Web fonts/stratosskyengweb-black.woff2'
-                    ),
-                    __webpack_require__.b
+            var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default =
+                /*#__PURE__*/ __webpack_require__.n(
+                    _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__
                 )
-                var ___CSS_LOADER_URL_IMPORT_1___ = new URL(
-                    /* asset import */ __webpack_require__(
-                        /*! Stratos/Web Fonts/stratosskyengweb-black.woff */ './Stratos/Web Fonts/stratosskyengweb-black.woff'
-                    ),
-                    __webpack_require__.b
+            var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ =
+                __webpack_require__(
+                    './node_modules/css-loader/dist/runtime/api.js'
                 )
-                var ___CSS_LOADER_EXPORT___ =
-                    _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(
-                        _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()
-                    )
-                var ___CSS_LOADER_URL_REPLACEMENT_0___ =
-                    _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(
-                        ___CSS_LOADER_URL_IMPORT_0___
-                    )
-                var ___CSS_LOADER_URL_REPLACEMENT_1___ =
-                    _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(
-                        ___CSS_LOADER_URL_IMPORT_1___
-                    )
-                // Module
-                ___CSS_LOADER_EXPORT___.push([
-                    module.id,
-                    "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url(" +
-                        ___CSS_LOADER_URL_REPLACEMENT_0___ +
-                        ") format('woff2'),\n        url(" +
-                        ___CSS_LOADER_URL_REPLACEMENT_1___ +
-                        ") format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
-                    '',
-                    {
-                        version: 3,
-                        sources: ['webpack://./index.css'],
-                        names: [],
-                        mappings:
-                            'AAAA;IACI,SAAS;IACT,UAAU;AACd;AACA;IACI,oBAAoB;IACpB,kBAAkB;IAClB,gBAAgB;IAChB;;8DAEuE;AAC3E;;AAEA;IACI,gCAAgC;IAChC,yBAAyB;AAC7B;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,UAAU;IACV,YAAY;IACZ,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,8BAA8B;IAC9B,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,eAAe;IACf,iBAAiB;IACjB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,eAAe;IACf,iBAAiB;IACjB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,eAAe;IACf,UAAU;IACV,YAAY;IACZ,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,8BAA8B;IAC9B,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,qBAAqB;AACzB;;AAEA;IACI,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,sBAAsB;IACtB,iBAAiB;AACrB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,sBAAsB;IACtB,WAAW;IACX,YAAY;IACZ,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;IACZ,gBAAgB;IAChB,cAAc;IACd,iBAAiB;IACjB,eAAe;IACf,iBAAiB;AACrB;;AAEA;IACI,kCAAkC;AACtC;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,YAAY;IACZ,WAAW;IACX,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,iBAAiB;AACrB;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,eAAe;IACf,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB',
-                        sourcesContent: [
-                            "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url('Stratos/Web fonts/stratosskyengweb-black.woff2') format('woff2'),\n        url('Stratos/Web Fonts/stratosskyengweb-black.woff') format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
-                        ],
-                        sourceRoot: '',
-                    },
-                ])
-                // Exports
-                /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ =
-                    ___CSS_LOADER_EXPORT___
+            var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default =
+                __webpack_require__.n(
+                    _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__
+                )
+            var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ =
+                __webpack_require__(
+                    './node_modules/css-loader/dist/runtime/getUrl.js'
+                )
+            var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default =
+                __webpack_require__.n(
+                    _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__
+                )
 
-                /***/
-            },
+            var ___CSS_LOADER_URL_IMPORT_0___ = new URL(
+                __webpack_require__(
+                    './Stratos/Web fonts/stratosskyengweb-black.woff2'
+                ),
+                __webpack_require__.b
+            )
+            var ___CSS_LOADER_URL_IMPORT_1___ = new URL(
+                __webpack_require__(
+                    './Stratos/Web Fonts/stratosskyengweb-black.woff'
+                ),
+                __webpack_require__.b
+            )
+            var ___CSS_LOADER_EXPORT___ =
+                _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(
+                    _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()
+                )
+            var ___CSS_LOADER_URL_REPLACEMENT_0___ =
+                _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(
+                    ___CSS_LOADER_URL_IMPORT_0___
+                )
+            var ___CSS_LOADER_URL_REPLACEMENT_1___ =
+                _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(
+                    ___CSS_LOADER_URL_IMPORT_1___
+                )
 
-        /***/ './node_modules/css-loader/dist/runtime/api.js':
-            /*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-            /***/ (module) => {
-                'use strict'
+            ___CSS_LOADER_EXPORT___.push([
+                module.id,
+                "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url(" +
+                    ___CSS_LOADER_URL_REPLACEMENT_0___ +
+                    ") format('woff2'),\n        url(" +
+                    ___CSS_LOADER_URL_REPLACEMENT_1___ +
+                    ") format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
+                '',
+                {
+                    version: 3,
+                    sources: ['webpack://./index.css'],
+                    names: [],
+                    mappings:
+                        'AAAA;IACI,SAAS;IACT,UAAU;AACd;AACA;IACI,oBAAoB;IACpB,kBAAkB;IAClB,gBAAgB;IAChB;;8DAEuE;AAC3E;;AAEA;IACI,gCAAgC;IAChC,yBAAyB;AAC7B;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,UAAU;IACV,YAAY;IACZ,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,8BAA8B;IAC9B,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,eAAe;IACf,iBAAiB;IACjB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,eAAe;IACf,iBAAiB;IACjB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,eAAe;IACf,UAAU;IACV,YAAY;IACZ,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,8BAA8B;IAC9B,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,qBAAqB;AACzB;;AAEA;IACI,yBAAyB;IACzB,aAAa;IACb,YAAY;IACZ,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,sBAAsB;IACtB,iBAAiB;AACrB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,sBAAsB;IACtB,WAAW;IACX,YAAY;IACZ,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;IACZ,gBAAgB;IAChB,cAAc;IACd,iBAAiB;IACjB,eAAe;IACf,iBAAiB;AACrB;;AAEA;IACI,kCAAkC;AACtC;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,YAAY;IACZ,WAAW;IACX,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,eAAe;IACf,iBAAiB;IACjB,iBAAiB;AACrB;;AAEA;IACI,sBAAsB;IACtB,yBAAyB;IACzB,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,eAAe;IACf,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB',
+                    sourcesContent: [
+                        "* {\n    margin: 0;\n    padding: 0;\n}\n@font-face {\n    font-family: Stratos;\n    font-style: normal;\n    font-weight: 400;\n    src: local('Stratos'),\n        url('Stratos/Web fonts/stratosskyengweb-black.woff2') format('woff2'),\n        url('Stratos/Web Fonts/stratosskyengweb-black.woff') format('woff');\n}\n\nbody {\n    font-family: Stratos, sans-serif;\n    background-color: #004980;\n}\n\n.win-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.win-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.div-lose {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 229px;\n}\n\n.lose-img {\n    padding-top: 30px;\n    padding-left: 184px;\n}\n\n.lose-text {\n    color: #004980;\n    font-size: 40px;\n    line-height: 48px;\n    padding-top: 4px;\n    padding-left: 112px;\n}\n\n.time-spent-title {\n    color: #000;\n    font-size: 24px;\n    line-height: 32px;\n    padding-top: 28px;\n    padding-left: 125px;\n}\n\n.time-spent {\n    color: #000;\n    font-size: 64px;\n    line-height: 72px;\n    padding-top: 10px;\n    padding-left: 163px;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.button-again-win {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 40px;\n    margin-left: 117px;\n}\n\n.button-again-win:hover {\n    background-color: #6ba705;\n}\n\n.div-win {\n    position: fixed;\n    z-index: 9;\n    margin: 20px;\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    margin-left: calc(50% - 240px);\n    margin-top: 100px;\n}\n\n.body-center {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n}\n\n.main {\n    background-color: #c2f5ff;\n    height: 459px;\n    width: 480px;\n    border-radius: 12px;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    margin-top: 158px;\n}\n\n.h1 {\n    color: #004980;\n    text-align: center;\n    font-weight: 400;\n    font-size: 40px;\n    line-height: 48px;\n    margin-top: 52px;\n}\n\n.d123 {\n    display: flex;\n    gap: 24px;\n}\n\n.button {\n    box-sizing: border-box;\n    width: 98px;\n    height: 98px;\n    background-color: #fff;\n    border-radius: 12px;\n    border: none;\n    margin-top: 48px;\n    color: #0080c1;\n    font-weight: 97px;\n    font-size: 64px;\n    line-height: 72px;\n}\n\n.button:focus {\n    background-color: rgb(228 220 220);\n}\n\n.button-start {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    width: 246px;\n    height: 50px;\n    border-radius: 12px;\n    border: none;\n    color: #fff;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 67px;\n}\n\n.button-start:hover {\n    background-color: #6ba705;\n}\n\n.screen2-hat {\n    display: flex;\n    justify-content: space-between;\n}\n\n.timer-name {\n    font-weight: 28px;\n    font-size: 16px;\n    line-height: 32px;\n    color: #fff;\n}\n\n.timer-name-div {\n    display: flex;\n}\n\n.min {\n    margin-top: 22px;\n    margin-left: 61px;\n}\n\n.sec {\n    margin-top: 22px;\n    margin-left: 57px;\n}\n\n.timer {\n    color: #fff;\n    font-weight: 400;\n    font-size: 64px;\n    line-height: 72px;\n    margin-left: 35px;\n}\n\n.button-again {\n    box-sizing: border-box;\n    background-color: #7ac100;\n    color: #fff;\n    width: 246px;\n    height: 50px;\n    border: none;\n    border-radius: 12px;\n    font-size: 24px;\n    line-height: 32px;\n    margin-right: 23px;\n    margin-top: 52px;\n}\n\n.button-again:hover {\n    background-color: #6ba705;\n}\n\n.cards-first {\n    margin: 35px 23px 15px 26px;\n}\n\n.cards {\n    margin: 15px 23px 15px 26px;\n}\n\n.card-row {\n    display: flex;\n    gap: 15px;\n}\n\n.cards-div {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n",
+                    ],
+                    sourceRoot: '',
+                },
+            ])
+            const __WEBPACK_DEFAULT_EXPORT__ = ___CSS_LOADER_EXPORT___
+        },
 
-                /*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-                module.exports = function (cssWithMappingToString) {
-                    var list = []
+        './node_modules/css-loader/dist/runtime/api.js': (module) => {
+            'use strict'
 
-                    // return the list of modules as css string
-                    list.toString = function toString() {
-                        return this.map(function (item) {
-                            var content = ''
-                            var needLayer = typeof item[5] !== 'undefined'
-                            if (item[4]) {
-                                content += '@supports ('.concat(item[4], ') {')
-                            }
-                            if (item[2]) {
-                                content += '@media '.concat(item[2], ' {')
-                            }
-                            if (needLayer) {
-                                content += '@layer'.concat(
-                                    item[5].length > 0
-                                        ? ' '.concat(item[5])
-                                        : '',
-                                    ' {'
-                                )
-                            }
-                            content += cssWithMappingToString(item)
-                            if (needLayer) {
-                                content += '}'
-                            }
-                            if (item[2]) {
-                                content += '}'
-                            }
-                            if (item[4]) {
-                                content += '}'
-                            }
-                            return content
-                        }).join('')
-                    }
+            module.exports = function (cssWithMappingToString) {
+                var list = []
 
-                    // import a list of modules into the list
-                    list.i = function i(
-                        modules,
-                        media,
-                        dedupe,
-                        supports,
-                        layer
-                    ) {
-                        if (typeof modules === 'string') {
-                            modules = [[null, modules, undefined]]
+                list.toString = function toString() {
+                    return this.map(function (item) {
+                        var content = ''
+                        var needLayer = typeof item[5] !== 'undefined'
+                        if (item[4]) {
+                            content += '@supports ('.concat(item[4], ') {')
                         }
-                        var alreadyImportedModules = {}
-                        if (dedupe) {
-                            for (var k = 0; k < this.length; k++) {
-                                var id = this[k][0]
-                                if (id != null) {
-                                    alreadyImportedModules[id] = true
-                                }
-                            }
+                        if (item[2]) {
+                            content += '@media '.concat(item[2], ' {')
                         }
-                        for (var _k = 0; _k < modules.length; _k++) {
-                            var item = [].concat(modules[_k])
-                            if (dedupe && alreadyImportedModules[item[0]]) {
-                                continue
-                            }
-                            if (typeof layer !== 'undefined') {
-                                if (typeof item[5] === 'undefined') {
-                                    item[5] = layer
-                                } else {
-                                    item[1] = '@layer'
-                                        .concat(
-                                            item[5].length > 0
-                                                ? ' '.concat(item[5])
-                                                : '',
-                                            ' {'
-                                        )
-                                        .concat(item[1], '}')
-                                    item[5] = layer
-                                }
-                            }
-                            if (media) {
-                                if (!item[2]) {
-                                    item[2] = media
-                                } else {
-                                    item[1] = '@media '
-                                        .concat(item[2], ' {')
-                                        .concat(item[1], '}')
-                                    item[2] = media
-                                }
-                            }
-                            if (supports) {
-                                if (!item[4]) {
-                                    item[4] = ''.concat(supports)
-                                } else {
-                                    item[1] = '@supports ('
-                                        .concat(item[4], ') {')
-                                        .concat(item[1], '}')
-                                    item[4] = supports
-                                }
-                            }
-                            list.push(item)
+                        if (needLayer) {
+                            content += '@layer'.concat(
+                                item[5].length > 0 ? ' '.concat(item[5]) : '',
+                                ' {'
+                            )
                         }
-                    }
-                    return list
+                        content += cssWithMappingToString(item)
+                        if (needLayer) {
+                            content += '}'
+                        }
+                        if (item[2]) {
+                            content += '}'
+                        }
+                        if (item[4]) {
+                            content += '}'
+                        }
+                        return content
+                    }).join('')
                 }
 
-                /***/
-            },
+                list.i = function i(modules, media, dedupe, supports, layer) {
+                    if (typeof modules === 'string') {
+                        modules = [[null, modules, undefined]]
+                    }
+                    var alreadyImportedModules = {}
+                    if (dedupe) {
+                        for (var k = 0; k < this.length; k++) {
+                            var id = this[k][0]
+                            if (id != null) {
+                                alreadyImportedModules[id] = true
+                            }
+                        }
+                    }
+                    for (var _k = 0; _k < modules.length; _k++) {
+                        var item = [].concat(modules[_k])
+                        if (dedupe && alreadyImportedModules[item[0]]) {
+                            continue
+                        }
+                        if (typeof layer !== 'undefined') {
+                            if (typeof item[5] === 'undefined') {
+                                item[5] = layer
+                            } else {
+                                item[1] = '@layer'
+                                    .concat(
+                                        item[5].length > 0
+                                            ? ' '.concat(item[5])
+                                            : '',
+                                        ' {'
+                                    )
+                                    .concat(item[1], '}')
+                                item[5] = layer
+                            }
+                        }
+                        if (media) {
+                            if (!item[2]) {
+                                item[2] = media
+                            } else {
+                                item[1] = '@media '
+                                    .concat(item[2], ' {')
+                                    .concat(item[1], '}')
+                                item[2] = media
+                            }
+                        }
+                        if (supports) {
+                            if (!item[4]) {
+                                item[4] = ''.concat(supports)
+                            } else {
+                                item[1] = '@supports ('
+                                    .concat(item[4], ') {')
+                                    .concat(item[1], '}')
+                                item[4] = supports
+                            }
+                        }
+                        list.push(item)
+                    }
+                }
+                return list
+            }
+        },
 
-        /***/ './node_modules/css-loader/dist/runtime/getUrl.js':
-            /*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-            /***/ (module) => {
-                'use strict'
+        './node_modules/css-loader/dist/runtime/getUrl.js': (module) => {
+            'use strict'
 
-                module.exports = function (url, options) {
-                    if (!options) {
-                        options = {}
-                    }
-                    if (!url) {
-                        return url
-                    }
-                    url = String(url.__esModule ? url.default : url)
-
-                    // If url is already wrapped in quotes, remove them
-                    if (/^['"].*['"]$/.test(url)) {
-                        url = url.slice(1, -1)
-                    }
-                    if (options.hash) {
-                        url += options.hash
-                    }
-
-                    // Should url be wrapped?
-                    // See https://drafts.csswg.org/css-values-3/#urls
-                    if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
-                        return '"'.concat(
-                            url.replace(/"/g, '\\"').replace(/\n/g, '\\n'),
-                            '"'
-                        )
-                    }
+            module.exports = function (url, options) {
+                if (!options) {
+                    options = {}
+                }
+                if (!url) {
                     return url
                 }
+                url = String(url.__esModule ? url.default : url)
 
-                /***/
-            },
-
-        /***/ './node_modules/css-loader/dist/runtime/sourceMaps.js':
-            /*!************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
-  \************************************************************/
-            /***/ (module) => {
-                'use strict'
-
-                module.exports = function (item) {
-                    var content = item[1]
-                    var cssMapping = item[3]
-                    if (!cssMapping) {
-                        return content
-                    }
-                    if (typeof btoa === 'function') {
-                        var base64 = btoa(
-                            unescape(
-                                encodeURIComponent(JSON.stringify(cssMapping))
-                            )
-                        )
-                        var data =
-                            'sourceMappingURL=data:application/json;charset=utf-8;base64,'.concat(
-                                base64
-                            )
-                        var sourceMapping = '/*# '.concat(data, ' */')
-                        return [content].concat([sourceMapping]).join('\n')
-                    }
-                    return [content].join('\n')
+                if (/^['"].*['"]$/.test(url)) {
+                    url = url.slice(1, -1)
+                }
+                if (options.hash) {
+                    url += options.hash
                 }
 
-                /***/
-            },
+                if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+                    return '"'.concat(
+                        url.replace(/"/g, '\\"').replace(/\n/g, '\\n'),
+                        '"'
+                    )
+                }
+                return url
+            }
+        },
 
-        /***/ './index.css':
-            /*!*******************!*\
-  !*** ./index.css ***!
-  \*******************/
-            /***/ (
-                __unused_webpack_module,
-                __webpack_exports__,
-                __webpack_require__
-            ) => {
-                'use strict'
-                __webpack_require__.r(__webpack_exports__)
-                /* harmony export */ __webpack_require__.d(
-                    __webpack_exports__,
-                    {
-                        /* harmony export */ default: () =>
-                            __WEBPACK_DEFAULT_EXPORT__,
-                        /* harmony export */
-                    }
+        './node_modules/css-loader/dist/runtime/sourceMaps.js': (module) => {
+            'use strict'
+
+            module.exports = function (item) {
+                var content = item[1]
+                var cssMapping = item[3]
+                if (!cssMapping) {
+                    return content
+                }
+                if (typeof btoa === 'function') {
+                    var base64 = btoa(
+                        unescape(encodeURIComponent(JSON.stringify(cssMapping)))
+                    )
+                    var data =
+                        'sourceMappingURL=data:application/json;charset=utf-8;base64,'.concat(
+                            base64
+                        )
+                    var sourceMapping = '/*# '.concat(data, ' */')
+                    return [content].concat([sourceMapping]).join('\n')
+                }
+                return [content].join('\n')
+            }
+        },
+
+        './index.css': (
+            __unused_webpack_module,
+            __webpack_exports__,
+            __webpack_require__
+        ) => {
+            'use strict'
+            __webpack_require__.r(__webpack_exports__)
+            __webpack_require__.d(__webpack_exports__, {
+                default: () => __WEBPACK_DEFAULT_EXPORT__,
+            })
+            var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js'
                 )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ './node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/styleDomAPI.js */ './node_modules/style-loader/dist/runtime/styleDomAPI.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/insertBySelector.js */ './node_modules/style-loader/dist/runtime/insertBySelector.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ './node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/insertStyleElement.js */ './node_modules/style-loader/dist/runtime/insertStyleElement.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ =
-                    __webpack_require__(
-                        /*! !./node_modules/style-loader/dist/runtime/styleTagTransform.js */ './node_modules/style-loader/dist/runtime/styleTagTransform.js'
-                    )
-                /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default =
-                    /*#__PURE__*/ __webpack_require__.n(
-                        _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__
-                    )
-                /* harmony import */ var _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__ =
-                    __webpack_require__(
-                        /*! !!./node_modules/css-loader/dist/cjs.js!./index.css */ './node_modules/css-loader/dist/cjs.js!./index.css'
-                    )
+            var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__
+                )
+            var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/styleDomAPI.js'
+                )
+            var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__
+                )
+            var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/insertBySelector.js'
+                )
+            var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__
+                )
+            var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js'
+                )
+            var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__
+                )
+            var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/insertStyleElement.js'
+                )
+            var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__
+                )
+            var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ =
+                __webpack_require__(
+                    './node_modules/style-loader/dist/runtime/styleTagTransform.js'
+                )
+            var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default =
+                __webpack_require__.n(
+                    _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__
+                )
+            var _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__ =
+                __webpack_require__(
+                    './node_modules/css-loader/dist/cjs.js!./index.css'
+                )
 
-                var options = {}
+            var options = {}
 
-                options.styleTagTransform =
-                    _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default()
-                options.setAttributes =
-                    _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default()
+            options.styleTagTransform =
+                _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default()
+            options.setAttributes =
+                _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default()
 
-                options.insert =
-                    _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(
-                        null,
-                        'head'
-                    )
+            options.insert =
+                _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(
+                    null,
+                    'head'
+                )
 
-                options.domAPI =
-                    _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default()
-                options.insertStyleElement =
-                    _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default()
+            options.domAPI =
+                _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default()
+            options.insertStyleElement =
+                _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default()
 
-                var update =
-                    _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(
-                        _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
-                            'default'
-                        ],
-                        options
-                    )
-
-                /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ =
+            var update =
+                _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(
                     _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
                         'default'
-                    ] &&
-                    _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
-                        'default'
-                    ].locals
-                        ? _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
-                              'default'
-                          ].locals
-                        : undefined
+                    ],
+                    options
+                )
+            const __WEBPACK_DEFAULT_EXPORT__ =
+                _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
+                    'default'
+                ] &&
+                _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
+                    'default'
+                ].locals
+                    ? _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[
+                          'default'
+                      ].locals
+                    : undefined
+        },
 
-                /***/
-            },
-
-        /***/ './node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js':
-            /*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-            /***/ (module) => {
+        './node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js':
+            (module) => {
                 'use strict'
 
                 var stylesInDOM = []
@@ -508,90 +445,69 @@
                         lastIdentifiers = newLastIdentifiers
                     }
                 }
-
-                /***/
             },
 
-        /***/ './node_modules/style-loader/dist/runtime/insertBySelector.js':
-            /*!********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \********************************************************************/
-            /***/ (module) => {
-                'use strict'
+        './node_modules/style-loader/dist/runtime/insertBySelector.js': (
+            module
+        ) => {
+            'use strict'
 
-                var memo = {}
-                /* istanbul ignore next  */
+            var memo = {}
 
-                function getTarget(target) {
-                    if (typeof memo[target] === 'undefined') {
-                        var styleTarget = document.querySelector(target) // Special case to return head of iframe instead of iframe itself
+            function getTarget(target) {
+                if (typeof memo[target] === 'undefined') {
+                    var styleTarget = document.querySelector(target)
 
-                        if (
-                            window.HTMLIFrameElement &&
-                            styleTarget instanceof window.HTMLIFrameElement
-                        ) {
-                            try {
-                                // This will throw an exception if access to iframe is blocked
-                                // due to cross-origin restrictions
-                                styleTarget = styleTarget.contentDocument.head
-                            } catch (e) {
-                                // istanbul ignore next
-                                styleTarget = null
-                            }
+                    if (
+                        window.HTMLIFrameElement &&
+                        styleTarget instanceof window.HTMLIFrameElement
+                    ) {
+                        try {
+                            styleTarget = styleTarget.contentDocument.head
+                        } catch (e) {
+                            styleTarget = null
                         }
-
-                        memo[target] = styleTarget
                     }
 
-                    return memo[target]
-                }
-                /* istanbul ignore next  */
-
-                function insertBySelector(insert, style) {
-                    var target = getTarget(insert)
-
-                    if (!target) {
-                        throw new Error(
-                            "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."
-                        )
-                    }
-
-                    target.appendChild(style)
+                    memo[target] = styleTarget
                 }
 
-                module.exports = insertBySelector
+                return memo[target]
+            }
+            function insertBySelector(insert, style) {
+                var target = getTarget(insert)
 
-                /***/
-            },
+                if (!target) {
+                    throw new Error(
+                        "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."
+                    )
+                }
 
-        /***/ './node_modules/style-loader/dist/runtime/insertStyleElement.js':
-            /*!**********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \**********************************************************************/
-            /***/ (module) => {
+                target.appendChild(style)
+            }
+
+            module.exports = insertBySelector
+        },
+
+        './node_modules/style-loader/dist/runtime/insertStyleElement.js': (
+            module
+        ) => {
+            'use strict'
+
+            function insertStyleElement(options) {
+                var element = document.createElement('style')
+                options.setAttributes(element, options.attributes)
+                options.insert(element, options.options)
+                return element
+            }
+
+            module.exports = insertStyleElement
+        },
+
+        './node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js':
+            (module, __unused_webpack_exports, __webpack_require__) => {
                 'use strict'
 
-                /* istanbul ignore next  */
-                function insertStyleElement(options) {
-                    var element = document.createElement('style')
-                    options.setAttributes(element, options.attributes)
-                    options.insert(element, options.options)
-                    return element
-                }
-
-                module.exports = insertStyleElement
-
-                /***/
-            },
-
-        /***/ './node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js':
-            /*!**********************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \**********************************************************************************/
-            /***/ (module, __unused_webpack_exports, __webpack_require__) => {
-                'use strict'
-
-                /* istanbul ignore next  */
                 function setAttributesWithoutAttributes(styleElement) {
                     var nonce = true ? __webpack_require__.nc : 0
 
@@ -601,244 +517,159 @@
                 }
 
                 module.exports = setAttributesWithoutAttributes
-
-                /***/
             },
 
-        /***/ './node_modules/style-loader/dist/runtime/styleDomAPI.js':
-            /*!***************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \***************************************************************/
-            /***/ (module) => {
-                'use strict'
+        './node_modules/style-loader/dist/runtime/styleDomAPI.js': (module) => {
+            'use strict'
 
-                /* istanbul ignore next  */
-                function apply(styleElement, options, obj) {
-                    var css = ''
+            function apply(styleElement, options, obj) {
+                var css = ''
 
-                    if (obj.supports) {
-                        css += '@supports ('.concat(obj.supports, ') {')
-                    }
+                if (obj.supports) {
+                    css += '@supports ('.concat(obj.supports, ') {')
+                }
 
-                    if (obj.media) {
-                        css += '@media '.concat(obj.media, ' {')
-                    }
+                if (obj.media) {
+                    css += '@media '.concat(obj.media, ' {')
+                }
 
-                    var needLayer = typeof obj.layer !== 'undefined'
+                var needLayer = typeof obj.layer !== 'undefined'
 
-                    if (needLayer) {
-                        css += '@layer'.concat(
-                            obj.layer.length > 0 ? ' '.concat(obj.layer) : '',
-                            ' {'
-                        )
-                    }
-
-                    css += obj.css
-
-                    if (needLayer) {
-                        css += '}'
-                    }
-
-                    if (obj.media) {
-                        css += '}'
-                    }
-
-                    if (obj.supports) {
-                        css += '}'
-                    }
-
-                    var sourceMap = obj.sourceMap
-
-                    if (sourceMap && typeof btoa !== 'undefined') {
-                        css +=
-                            '\n/*# sourceMappingURL=data:application/json;base64,'.concat(
-                                btoa(
-                                    unescape(
-                                        encodeURIComponent(
-                                            JSON.stringify(sourceMap)
-                                        )
-                                    )
-                                ),
-                                ' */'
-                            )
-                    } // For old IE
-
-                    /* istanbul ignore if  */
-
-                    options.styleTagTransform(
-                        css,
-                        styleElement,
-                        options.options
+                if (needLayer) {
+                    css += '@layer'.concat(
+                        obj.layer.length > 0 ? ' '.concat(obj.layer) : '',
+                        ' {'
                     )
                 }
 
-                function removeStyleElement(styleElement) {
-                    // istanbul ignore if
-                    if (styleElement.parentNode === null) {
-                        return false
-                    }
+                css += obj.css
 
-                    styleElement.parentNode.removeChild(styleElement)
-                }
-                /* istanbul ignore next  */
-
-                function domAPI(options) {
-                    var styleElement = options.insertStyleElement(options)
-                    return {
-                        update: function update(obj) {
-                            apply(styleElement, options, obj)
-                        },
-                        remove: function remove() {
-                            removeStyleElement(styleElement)
-                        },
-                    }
+                if (needLayer) {
+                    css += '}'
                 }
 
-                module.exports = domAPI
-
-                /***/
-            },
-
-        /***/ './node_modules/style-loader/dist/runtime/styleTagTransform.js':
-            /*!*********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \*********************************************************************/
-            /***/ (module) => {
-                'use strict'
-
-                /* istanbul ignore next  */
-                function styleTagTransform(css, styleElement) {
-                    if (styleElement.styleSheet) {
-                        styleElement.styleSheet.cssText = css
-                    } else {
-                        while (styleElement.firstChild) {
-                            styleElement.removeChild(styleElement.firstChild)
-                        }
-
-                        styleElement.appendChild(document.createTextNode(css))
-                    }
+                if (obj.media) {
+                    css += '}'
                 }
 
-                module.exports = styleTagTransform
+                if (obj.supports) {
+                    css += '}'
+                }
 
-                /***/
-            },
+                var sourceMap = obj.sourceMap
 
-        /***/ './img/10 бубны.svg':
-            /*!**************************!*\
-  !*** ./img/10 бубны.svg ***!
-  \**************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M15.3748 28L18.0933 31.3832L15.3748 34.7495L12.6562 31.3832L15.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M79.3748 97L82.0933 100.383L79.3748 103.75L76.6562 100.383L79.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+                if (sourceMap && typeof btoa !== 'undefined') {
+                    css +=
+                        '\n/*# sourceMappingURL=data:application/json;base64,'.concat(
+                            btoa(
+                                unescape(
+                                    encodeURIComponent(
+                                        JSON.stringify(sourceMap)
+                                    )
+                                )
+                            ),
+                            ' */'
+                        )
+                }
 
-                /***/
-            },
+                options.styleTagTransform(css, styleElement, options.options)
+            }
 
-        /***/ './img/10 крести.svg':
-            /*!***************************!*\
-  !*** ./img/10 крести.svg ***!
-  \***************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.059 31.8261C16.3214 31.4516 16.7305 30.6511 16.7305 30.0813C16.7305 29.4456 16.3832 29 15.878 29C15.3096 29 14.9939 29.4534 14.9939 30.0813C14.9939 30.5377 15.386 31.3628 15.6487 31.7793C15.2636 31.5033 14.4461 31.0688 14.0084 31.0688C13.4229 31.0688 13 31.4074 13 32.0168C13 32.5585 13.4156 32.9309 14.0084 32.9309C14.5668 32.9309 15.3808 32.4356 15.7115 32.1536L14.9297 35C15.6747 34.717 16.1478 34.7115 16.8594 35L16.0182 32.1514C16.3266 32.425 17.1455 32.9309 17.7161 32.9309C18.309 32.9309 18.7246 32.5585 18.7246 32.0168C18.7246 31.4074 18.3017 31.0688 17.7161 31.0688C17.2616 31.0688 16.4151 31.5482 16.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M80.059 100.174C80.3214 100.548 80.7305 101.349 80.7305 101.919C80.7305 102.554 80.3832 103 79.878 103C79.3096 103 78.9939 102.547 78.9939 101.919C78.9939 101.462 79.386 100.637 79.6487 100.221C79.2636 100.497 78.4461 100.931 78.0084 100.931C77.4229 100.931 77 100.593 77 99.9832C77 99.4415 77.4156 99.0691 78.0084 99.0691C78.5668 99.0691 79.3808 99.5644 79.7115 99.8464L78.9297 97C79.6747 97.283 80.1478 97.2885 80.8594 97L80.0182 99.8486C80.3266 99.575 81.1455 99.0691 81.7161 99.0691C82.309 99.0691 82.7246 99.4415 82.7246 99.9832C82.7246 100.593 82.3017 100.931 81.7161 100.931C81.2616 100.931 80.4151 100.452 80.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+            function removeStyleElement(styleElement) {
+                if (styleElement.parentNode === null) {
+                    return false
+                }
 
-                /***/
-            },
+                styleElement.parentNode.removeChild(styleElement)
+            }
+            function domAPI(options) {
+                var styleElement = options.insertStyleElement(options)
+                return {
+                    update: function update(obj) {
+                        apply(styleElement, options, obj)
+                    },
+                    remove: function remove() {
+                        removeStyleElement(styleElement)
+                    },
+                }
+            }
 
-        /***/ './img/10 пики.svg':
-            /*!*************************!*\
-  !*** ./img/10 пики.svg ***!
-  \*************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.4519 29.007C15.5627 29.0908 15.6744 29.1747 15.7864 29.2589C17.3251 30.4148 18.9323 31.6223 18.9734 33.0588C18.9293 34.5147 17.9141 35 17.0314 35C16.5147 35 15.923 34.7127 15.4824 34.2311C15.0887 34.7127 14.547 35 14.0303 35C13.1475 35 12.0441 34.5147 12 33.0588C12.0426 31.5679 13.6899 30.3238 15.2733 29.1279C15.3266 29.0876 15.3799 29.0473 15.4331 29.0071C15.4362 29.0047 15.4393 29.0023 15.4425 28.9999C15.4425 28.9999 15.4425 28.9999 15.4426 28.9999C15.4426 28.9999 15.4426 28.9999 15.4426 28.9999C15.4458 29.0023 15.4489 29.0047 15.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M79.5214 103.635C79.4107 103.557 79.299 103.478 79.1869 103.399C77.6483 102.312 76.0411 101.176 76 99.8254C76.0441 98.4564 77.0593 98 77.942 98C78.4587 98 79.0504 98.2702 79.4909 98.7231C79.8847 98.2702 80.4264 98 80.9431 98C81.8258 98 82.9293 98.4564 82.9734 99.8254C82.9308 101.227 81.2835 102.397 79.7001 103.522C79.6467 103.56 79.5934 103.598 79.5403 103.635C79.5372 103.638 79.534 103.64 79.5309 103.642C79.5309 103.642 79.5309 103.642 79.5308 103.642C79.5308 103.642 79.5308 103.642 79.5308 103.642C79.5276 103.64 79.5245 103.638 79.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
+            module.exports = domAPI
+        },
 
-                /***/
-            },
+        './node_modules/style-loader/dist/runtime/styleTagTransform.js': (
+            module
+        ) => {
+            'use strict'
 
-        /***/ './img/10 черви.svg':
-            /*!**************************!*\
-  !*** ./img/10 черви.svg ***!
-  \**************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.53 57.2785C45.6964 55.2252 43.2335 54.0001 41.0828 54.0001C37.4088 54.0001 33.1837 56.0689 33 62.2754C33.1709 68.3992 39.8603 73.5464 46.2644 78.474C46.7441 78.8432 47.2223 79.2111 47.696 79.5781C47.696 79.5781 47.696 79.5781 47.696 79.578C47.6961 79.5781 47.6961 79.5781 47.6961 79.5781C47.9305 79.3965 48.1655 79.2147 48.4009 79.0326C54.9912 73.9345 61.8473 68.6309 62.0247 62.2754C61.841 56.0689 57.2485 54.0001 53.5745 54.0001C51.4238 54.0001 49.169 55.2252 47.53 57.2785Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.5214 34.993C15.4107 34.9092 15.299 34.8253 15.1869 34.7411C13.6483 33.5852 12.0411 32.3777 12 30.9412C12.0441 29.4853 13.0593 29 13.942 29C14.4587 29 15.0504 29.2873 15.4909 29.7689C15.8847 29.2873 16.4264 29 16.9431 29C17.8258 29 18.9293 29.4853 18.9734 30.9412C18.9308 32.4321 17.2835 33.6762 15.7001 34.8721C15.6467 34.9124 15.5935 34.9527 15.5403 34.9929C15.5372 34.9953 15.5341 34.9977 15.5309 35.0001C15.5309 35.0001 15.5309 35.0001 15.5308 35.0001C15.5308 35.0001 15.5308 35.0001 15.5308 35.0001C15.5276 34.9977 15.5245 34.9953 15.5214 34.993Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M79.452 98.0066C79.5627 98.0854 79.6744 98.1643 79.7864 98.2434C81.3251 99.3304 82.9323 100.466 82.9734 101.817C82.9293 103.186 81.9141 103.642 81.0314 103.642C80.5147 103.642 79.923 103.372 79.4824 102.919C79.0887 103.372 78.547 103.642 78.0303 103.642C77.1475 103.642 76.0441 103.186 76 101.817C76.0426 100.415 77.6899 99.2448 79.2733 98.1202C79.3267 98.0823 79.3799 98.0445 79.4331 98.0067C79.4362 98.0044 79.4393 98.0021 79.4425 97.9999C79.4425 97.9999 79.4425 97.9999 79.4426 97.9999C79.4426 97.9999 79.4426 97.9999 79.4426 97.9999C79.4458 98.0021 79.4489 98.0044 79.452 98.0066Z' fill='%23FF4545'/%3e %3c/svg%3e"
+            function styleTagTransform(css, styleElement) {
+                if (styleElement.styleSheet) {
+                    styleElement.styleSheet.cssText = css
+                } else {
+                    while (styleElement.firstChild) {
+                        styleElement.removeChild(styleElement.firstChild)
+                    }
 
-                /***/
-            },
+                    styleElement.appendChild(document.createTextNode(css))
+                }
+            }
 
-        /***/ './img/6 бубны.svg':
-            /*!*************************!*\
-  !*** ./img/6 бубны.svg ***!
-  \*************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M12.3748 28L15.0933 31.3832L12.3748 34.7495L9.6562 31.3832L12.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M82.3748 97L85.0933 100.383L82.3748 103.75L79.6562 100.383L82.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+            module.exports = styleTagTransform
+        },
 
-                /***/
-            },
+        './img/10 бубны.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M15.3748 28L18.0933 31.3832L15.3748 34.7495L12.6562 31.3832L15.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M79.3748 97L82.0933 100.383L79.3748 103.75L76.6562 100.383L79.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        },
 
-        /***/ './img/6 крести.svg':
-            /*!**************************!*\
-  !*** ./img/6 крести.svg ***!
-  \**************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.059 31.8261C12.3214 31.4516 12.7305 30.6511 12.7305 30.0813C12.7305 29.4456 12.3832 29 11.878 29C11.3096 29 10.9939 29.4534 10.9939 30.0813C10.9939 30.5377 11.386 31.3628 11.6487 31.7793C11.2636 31.5033 10.4461 31.0688 10.0084 31.0688C9.42289 31.0688 9 31.4074 9 32.0168C9 32.5585 9.41556 32.9309 10.0084 32.9309C10.5668 32.9309 11.3808 32.4356 11.7115 32.1536L10.9297 35C11.6747 34.717 12.1478 34.7115 12.8594 35L12.0182 32.1514C12.3266 32.425 13.1455 32.9309 13.7161 32.9309C14.309 32.9309 14.7246 32.5585 14.7246 32.0168C14.7246 31.4074 14.3017 31.0688 13.7161 31.0688C13.2616 31.0688 12.4151 31.5482 12.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M83.059 100.174C83.3214 100.548 83.7305 101.349 83.7305 101.919C83.7305 102.554 83.3832 103 82.878 103C82.3096 103 81.9939 102.547 81.9939 101.919C81.9939 101.462 82.386 100.637 82.6487 100.221C82.2636 100.497 81.4461 100.931 81.0084 100.931C80.4229 100.931 80 100.593 80 99.9832C80 99.4415 80.4156 99.0691 81.0084 99.0691C81.5668 99.0691 82.3808 99.5644 82.7115 99.8464L81.9297 97C82.6747 97.283 83.1478 97.2885 83.8594 97L83.0182 99.8486C83.3266 99.575 84.1455 99.0691 84.7161 99.0691C85.309 99.0691 85.7246 99.4415 85.7246 99.9832C85.7246 100.593 85.3017 100.931 84.7161 100.931C84.2616 100.931 83.4151 100.452 83.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+        './img/10 крести.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.059 31.8261C16.3214 31.4516 16.7305 30.6511 16.7305 30.0813C16.7305 29.4456 16.3832 29 15.878 29C15.3096 29 14.9939 29.4534 14.9939 30.0813C14.9939 30.5377 15.386 31.3628 15.6487 31.7793C15.2636 31.5033 14.4461 31.0688 14.0084 31.0688C13.4229 31.0688 13 31.4074 13 32.0168C13 32.5585 13.4156 32.9309 14.0084 32.9309C14.5668 32.9309 15.3808 32.4356 15.7115 32.1536L14.9297 35C15.6747 34.717 16.1478 34.7115 16.8594 35L16.0182 32.1514C16.3266 32.425 17.1455 32.9309 17.7161 32.9309C18.309 32.9309 18.7246 32.5585 18.7246 32.0168C18.7246 31.4074 18.3017 31.0688 17.7161 31.0688C17.2616 31.0688 16.4151 31.5482 16.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M80.059 100.174C80.3214 100.548 80.7305 101.349 80.7305 101.919C80.7305 102.554 80.3832 103 79.878 103C79.3096 103 78.9939 102.547 78.9939 101.919C78.9939 101.462 79.386 100.637 79.6487 100.221C79.2636 100.497 78.4461 100.931 78.0084 100.931C77.4229 100.931 77 100.593 77 99.9832C77 99.4415 77.4156 99.0691 78.0084 99.0691C78.5668 99.0691 79.3808 99.5644 79.7115 99.8464L78.9297 97C79.6747 97.283 80.1478 97.2885 80.8594 97L80.0182 99.8486C80.3266 99.575 81.1455 99.0691 81.7161 99.0691C82.309 99.0691 82.7246 99.4415 82.7246 99.9832C82.7246 100.593 82.3017 100.931 81.7161 100.931C81.2616 100.931 80.4151 100.452 80.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+        },
 
-                /***/
-            },
+        './img/10 пики.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.4519 29.007C15.5627 29.0908 15.6744 29.1747 15.7864 29.2589C17.3251 30.4148 18.9323 31.6223 18.9734 33.0588C18.9293 34.5147 17.9141 35 17.0314 35C16.5147 35 15.923 34.7127 15.4824 34.2311C15.0887 34.7127 14.547 35 14.0303 35C13.1475 35 12.0441 34.5147 12 33.0588C12.0426 31.5679 13.6899 30.3238 15.2733 29.1279C15.3266 29.0876 15.3799 29.0473 15.4331 29.0071C15.4362 29.0047 15.4393 29.0023 15.4425 28.9999C15.4425 28.9999 15.4425 28.9999 15.4426 28.9999C15.4426 28.9999 15.4426 28.9999 15.4426 28.9999C15.4458 29.0023 15.4489 29.0047 15.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M79.5214 103.635C79.4107 103.557 79.299 103.478 79.1869 103.399C77.6483 102.312 76.0411 101.176 76 99.8254C76.0441 98.4564 77.0593 98 77.942 98C78.4587 98 79.0504 98.2702 79.4909 98.7231C79.8847 98.2702 80.4264 98 80.9431 98C81.8258 98 82.9293 98.4564 82.9734 99.8254C82.9308 101.227 81.2835 102.397 79.7001 103.522C79.6467 103.56 79.5934 103.598 79.5403 103.635C79.5372 103.638 79.534 103.64 79.5309 103.642C79.5309 103.642 79.5309 103.642 79.5308 103.642C79.5308 103.642 79.5308 103.642 79.5308 103.642C79.5276 103.64 79.5245 103.638 79.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
+        },
 
-        /***/ './img/6 пики.svg':
-            /*!************************!*\
-  !*** ./img/6 пики.svg ***!
-  \************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4519 29.007C12.5627 29.0908 12.6744 29.1747 12.7864 29.2589C14.3251 30.4148 15.9323 31.6223 15.9734 33.0588C15.9293 34.5147 14.9141 35 14.0314 35C13.5147 35 12.923 34.7127 12.4824 34.2311C12.0887 34.7127 11.547 35 11.0303 35C10.1475 35 9.04414 34.5147 9 33.0588C9.04261 31.5679 10.6899 30.3238 12.2733 29.1279C12.3266 29.0876 12.3799 29.0473 12.4331 29.0071C12.4362 29.0047 12.4393 29.0023 12.4425 28.9999C12.4425 28.9999 12.4425 28.9999 12.4426 28.9999C12.4426 28.9999 12.4426 28.9999 12.4426 28.9999C12.4458 29.0023 12.4489 29.0047 12.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.5214 103.635C82.4107 103.557 82.299 103.478 82.1869 103.399C80.6483 102.312 79.0411 101.176 79 99.8254C79.0441 98.4564 80.0593 98 80.942 98C81.4587 98 82.0504 98.2702 82.4909 98.7231C82.8847 98.2702 83.4264 98 83.9431 98C84.8258 98 85.9293 98.4564 85.9734 99.8254C85.9308 101.227 84.2835 102.397 82.7001 103.522C82.6467 103.56 82.5934 103.598 82.5403 103.635C82.5372 103.638 82.534 103.64 82.5309 103.642C82.5309 103.642 82.5309 103.642 82.5308 103.642C82.5308 103.642 82.5308 103.642 82.5308 103.642C82.5276 103.64 82.5245 103.638 82.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
+        './img/10 черви.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.264 6.816C9.264 8.616 8.616 9.36 7.056 9.36H6.48V11.376H9.264V24H11.664V6H9.264V6.816ZM20.0297 24.24C23.1977 24.24 25.0937 22.296 25.0937 18.336V11.664C25.0937 7.728 23.1977 5.76 20.0297 5.76C16.8857 5.76 14.9657 7.728 14.9657 11.664V18.336C14.9657 22.296 16.8857 24.24 20.0297 24.24ZM20.0297 22.032C18.3497 22.032 17.3657 21.048 17.3657 18.336V11.664C17.3657 8.976 18.3737 7.968 20.0297 7.968C21.6857 7.968 22.6937 8.976 22.6937 11.664V18.336C22.6937 21.048 21.6857 22.032 20.0297 22.032Z' fill='black'/%3e %3cpath d='M85.736 125.184C85.736 123.384 86.384 122.64 87.944 122.64L88.52 122.64L88.52 120.624L85.736 120.624L85.736 108L83.336 108L83.336 126L85.736 126L85.736 125.184ZM74.9703 107.76C71.8023 107.76 69.9063 109.704 69.9063 113.664L69.9063 120.336C69.9063 124.272 71.8023 126.24 74.9703 126.24C78.1143 126.24 80.0343 124.272 80.0343 120.336L80.0343 113.664C80.0343 109.704 78.1143 107.76 74.9703 107.76ZM74.9703 109.968C76.6503 109.968 77.6343 110.952 77.6343 113.664L77.6343 120.336C77.6343 123.024 76.6263 124.032 74.9703 124.032C73.3143 124.032 72.3063 123.024 72.3063 120.336L72.3063 113.664C72.3063 110.952 73.3143 109.968 74.9703 109.968Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.53 57.2785C45.6964 55.2252 43.2335 54.0001 41.0828 54.0001C37.4088 54.0001 33.1837 56.0689 33 62.2754C33.1709 68.3992 39.8603 73.5464 46.2644 78.474C46.7441 78.8432 47.2223 79.2111 47.696 79.5781C47.696 79.5781 47.696 79.5781 47.696 79.578C47.6961 79.5781 47.6961 79.5781 47.6961 79.5781C47.9305 79.3965 48.1655 79.2147 48.4009 79.0326C54.9912 73.9345 61.8473 68.6309 62.0247 62.2754C61.841 56.0689 57.2485 54.0001 53.5745 54.0001C51.4238 54.0001 49.169 55.2252 47.53 57.2785Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.5214 34.993C15.4107 34.9092 15.299 34.8253 15.1869 34.7411C13.6483 33.5852 12.0411 32.3777 12 30.9412C12.0441 29.4853 13.0593 29 13.942 29C14.4587 29 15.0504 29.2873 15.4909 29.7689C15.8847 29.2873 16.4264 29 16.9431 29C17.8258 29 18.9293 29.4853 18.9734 30.9412C18.9308 32.4321 17.2835 33.6762 15.7001 34.8721C15.6467 34.9124 15.5935 34.9527 15.5403 34.9929C15.5372 34.9953 15.5341 34.9977 15.5309 35.0001C15.5309 35.0001 15.5309 35.0001 15.5308 35.0001C15.5308 35.0001 15.5308 35.0001 15.5308 35.0001C15.5276 34.9977 15.5245 34.9953 15.5214 34.993Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M79.452 98.0066C79.5627 98.0854 79.6744 98.1643 79.7864 98.2434C81.3251 99.3304 82.9323 100.466 82.9734 101.817C82.9293 103.186 81.9141 103.642 81.0314 103.642C80.5147 103.642 79.923 103.372 79.4824 102.919C79.0887 103.372 78.547 103.642 78.0303 103.642C77.1475 103.642 76.0441 103.186 76 101.817C76.0426 100.415 77.6899 99.2448 79.2733 98.1202C79.3267 98.0823 79.3799 98.0445 79.4331 98.0067C79.4362 98.0044 79.4393 98.0021 79.4425 97.9999C79.4425 97.9999 79.4425 97.9999 79.4426 97.9999C79.4426 97.9999 79.4426 97.9999 79.4426 97.9999C79.4458 98.0021 79.4489 98.0044 79.452 98.0066Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        },
 
-                /***/
-            },
+        './img/6 бубны.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M12.3748 28L15.0933 31.3832L12.3748 34.7495L9.6562 31.3832L12.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M82.3748 97L85.0933 100.383L82.3748 103.75L79.6562 100.383L82.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        },
 
-        /***/ './img/6 черви.svg':
-            /*!*************************!*\
-  !*** ./img/6 черви.svg ***!
-  \*************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.53 57.2785C45.6964 55.2252 43.2335 54.0001 41.0828 54.0001C37.4088 54.0001 33.1837 56.0689 33 62.2754C33.1709 68.3992 39.8603 73.5464 46.2644 78.474C46.7441 78.8432 47.2223 79.2111 47.696 79.5781C47.696 79.5781 47.696 79.5781 47.696 79.578C47.6961 79.5781 47.6961 79.5781 47.6961 79.5781C47.9305 79.3965 48.1655 79.2147 48.4009 79.0326C54.9912 73.9345 61.8473 68.6309 62.0247 62.2754C61.841 56.0689 57.2485 54.0001 53.5745 54.0001C51.4238 54.0001 49.169 55.2252 47.53 57.2785Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.5214 34.9928C12.4107 34.9091 12.299 34.8252 12.1869 34.741C10.6483 33.5851 9.04106 32.3776 9 30.9411C9.04414 29.4852 10.0593 28.9999 10.942 28.9999C11.4587 28.9999 12.0504 29.2872 12.4909 29.7688C12.8847 29.2872 13.4264 28.9999 13.9431 28.9999C14.8258 28.9999 15.9293 29.4852 15.9734 30.9411C15.9308 32.432 14.2835 33.6761 12.7001 34.872C12.6467 34.9123 12.5935 34.9526 12.5403 34.9928C12.5372 34.9952 12.5341 34.9976 12.5309 35C12.5309 35 12.5309 35 12.5308 34.9999C12.5308 35 12.5308 35 12.5308 35C12.5276 34.9976 12.5245 34.9952 12.5214 34.9928Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.452 98.0068C82.5627 98.0855 82.6744 98.1644 82.7864 98.2436C84.3251 99.3305 85.9323 100.466 85.9734 101.817C85.9293 103.186 84.9141 103.642 84.0314 103.642C83.5147 103.642 82.923 103.372 82.4824 102.919C82.0887 103.372 81.547 103.642 81.0303 103.642C80.1475 103.642 79.0441 103.186 79 101.817C79.0426 100.415 80.6899 99.2449 82.2733 98.1203C82.3267 98.0824 82.3799 98.0446 82.4331 98.0068C82.4362 98.0045 82.4393 98.0023 82.4425 98C82.4425 98 82.4425 98 82.4426 98.0001C82.4426 98 82.4426 98 82.4426 98C82.4458 98.0023 82.4489 98.0045 82.452 98.0068Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        './img/6 крести.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.059 31.8261C12.3214 31.4516 12.7305 30.6511 12.7305 30.0813C12.7305 29.4456 12.3832 29 11.878 29C11.3096 29 10.9939 29.4534 10.9939 30.0813C10.9939 30.5377 11.386 31.3628 11.6487 31.7793C11.2636 31.5033 10.4461 31.0688 10.0084 31.0688C9.42289 31.0688 9 31.4074 9 32.0168C9 32.5585 9.41556 32.9309 10.0084 32.9309C10.5668 32.9309 11.3808 32.4356 11.7115 32.1536L10.9297 35C11.6747 34.717 12.1478 34.7115 12.8594 35L12.0182 32.1514C12.3266 32.425 13.1455 32.9309 13.7161 32.9309C14.309 32.9309 14.7246 32.5585 14.7246 32.0168C14.7246 31.4074 14.3017 31.0688 13.7161 31.0688C13.2616 31.0688 12.4151 31.5482 12.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M83.059 100.174C83.3214 100.548 83.7305 101.349 83.7305 101.919C83.7305 102.554 83.3832 103 82.878 103C82.3096 103 81.9939 102.547 81.9939 101.919C81.9939 101.462 82.386 100.637 82.6487 100.221C82.2636 100.497 81.4461 100.931 81.0084 100.931C80.4229 100.931 80 100.593 80 99.9832C80 99.4415 80.4156 99.0691 81.0084 99.0691C81.5668 99.0691 82.3808 99.5644 82.7115 99.8464L81.9297 97C82.6747 97.283 83.1478 97.2885 83.8594 97L83.0182 99.8486C83.3266 99.575 84.1455 99.0691 84.7161 99.0691C85.309 99.0691 85.7246 99.4415 85.7246 99.9832C85.7246 100.593 85.3017 100.931 84.7161 100.931C84.2616 100.931 83.4151 100.452 83.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+        },
 
-                /***/
-            },
+        './img/6 пики.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4519 29.007C12.5627 29.0908 12.6744 29.1747 12.7864 29.2589C14.3251 30.4148 15.9323 31.6223 15.9734 33.0588C15.9293 34.5147 14.9141 35 14.0314 35C13.5147 35 12.923 34.7127 12.4824 34.2311C12.0887 34.7127 11.547 35 11.0303 35C10.1475 35 9.04414 34.5147 9 33.0588C9.04261 31.5679 10.6899 30.3238 12.2733 29.1279C12.3266 29.0876 12.3799 29.0473 12.4331 29.0071C12.4362 29.0047 12.4393 29.0023 12.4425 28.9999C12.4425 28.9999 12.4425 28.9999 12.4426 28.9999C12.4426 28.9999 12.4426 28.9999 12.4426 28.9999C12.4458 29.0023 12.4489 29.0047 12.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.5214 103.635C82.4107 103.557 82.299 103.478 82.1869 103.399C80.6483 102.312 79.0411 101.176 79 99.8254C79.0441 98.4564 80.0593 98 80.942 98C81.4587 98 82.0504 98.2702 82.4909 98.7231C82.8847 98.2702 83.4264 98 83.9431 98C84.8258 98 85.9293 98.4564 85.9734 99.8254C85.9308 101.227 84.2835 102.397 82.7001 103.522C82.6467 103.56 82.5934 103.598 82.5403 103.635C82.5372 103.638 82.534 103.64 82.5309 103.642C82.5309 103.642 82.5309 103.642 82.5308 103.642C82.5308 103.642 82.5308 103.642 82.5308 103.642C82.5276 103.64 82.5245 103.638 82.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
+        },
 
-        /***/ './img/7 бубны.svg':
-            /*!*************************!*\
-  !*** ./img/7 бубны.svg ***!
-  \*************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M11.616 22.776C11.616 16.2 13.272 13.512 15.6 9V6H6.432V8.208H13.632C11.28 12.6 9.216 16.128 9.216 23.184V24H11.616V22.776Z' fill='black'/%3e %3cpath d='M83.384 109.224C83.384 115.8 81.728 118.488 79.4 123L79.4 126L88.568 126L88.568 123.792L81.368 123.792C83.72 119.4 85.784 115.872 85.784 108.816L85.784 108L83.384 108L83.384 109.224Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M12.3748 28L15.0933 31.3832L12.3748 34.7495L9.6562 31.3832L12.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M82.3748 97L85.0933 100.383L82.3748 103.75L79.6562 100.383L82.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        './img/6 черви.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M9.936 11.664C9.936 9.024 10.992 7.968 12.6 7.968C14.136 7.968 15.072 8.88 15.072 11.088V11.304H17.472V10.896C17.472 7.536 15.36 5.76 12.6 5.76C9.72 5.76 7.536 7.728 7.536 11.472V18.528C7.536 22.272 9.72 24.24 12.6 24.24C15.48 24.24 17.664 22.344 17.664 18.768V18.288C17.664 14.64 15.696 12.816 13.224 12.816C11.88 12.816 10.704 13.344 9.936 14.688V11.664ZM9.936 18.312C9.936 15.96 10.968 15.024 12.6 15.024C14.28 15.024 15.264 15.96 15.264 18.312V18.744C15.264 21.048 14.232 22.032 12.6 22.032C10.968 22.032 9.936 21.072 9.936 18.744V18.312Z' fill='black'/%3e %3cpath d='M85.064 120.336C85.064 122.976 84.008 124.032 82.4 124.032C80.864 124.032 79.928 123.12 79.928 120.912L79.928 120.696L77.528 120.696L77.528 121.104C77.528 124.464 79.64 126.24 82.4 126.24C85.28 126.24 87.464 124.272 87.464 120.528L87.464 113.472C87.464 109.728 85.28 107.76 82.4 107.76C79.52 107.76 77.336 109.656 77.336 113.232L77.336 113.712C77.336 117.36 79.304 119.184 81.776 119.184C83.12 119.184 84.296 118.656 85.064 117.312L85.064 120.336ZM85.064 113.688C85.064 116.04 84.032 116.976 82.4 116.976C80.72 116.976 79.736 116.04 79.736 113.688L79.736 113.256C79.736 110.952 80.768 109.968 82.4 109.968C84.032 109.968 85.064 110.928 85.064 113.256L85.064 113.688Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.53 57.2785C45.6964 55.2252 43.2335 54.0001 41.0828 54.0001C37.4088 54.0001 33.1837 56.0689 33 62.2754C33.1709 68.3992 39.8603 73.5464 46.2644 78.474C46.7441 78.8432 47.2223 79.2111 47.696 79.5781C47.696 79.5781 47.696 79.5781 47.696 79.578C47.6961 79.5781 47.6961 79.5781 47.6961 79.5781C47.9305 79.3965 48.1655 79.2147 48.4009 79.0326C54.9912 73.9345 61.8473 68.6309 62.0247 62.2754C61.841 56.0689 57.2485 54.0001 53.5745 54.0001C51.4238 54.0001 49.169 55.2252 47.53 57.2785Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.5214 34.9928C12.4107 34.9091 12.299 34.8252 12.1869 34.741C10.6483 33.5851 9.04106 32.3776 9 30.9411C9.04414 29.4852 10.0593 28.9999 10.942 28.9999C11.4587 28.9999 12.0504 29.2872 12.4909 29.7688C12.8847 29.2872 13.4264 28.9999 13.9431 28.9999C14.8258 28.9999 15.9293 29.4852 15.9734 30.9411C15.9308 32.432 14.2835 33.6761 12.7001 34.872C12.6467 34.9123 12.5935 34.9526 12.5403 34.9928C12.5372 34.9952 12.5341 34.9976 12.5309 35C12.5309 35 12.5309 35 12.5308 34.9999C12.5308 35 12.5308 35 12.5308 35C12.5276 34.9976 12.5245 34.9952 12.5214 34.9928Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.452 98.0068C82.5627 98.0855 82.6744 98.1644 82.7864 98.2436C84.3251 99.3305 85.9323 100.466 85.9734 101.817C85.9293 103.186 84.9141 103.642 84.0314 103.642C83.5147 103.642 82.923 103.372 82.4824 102.919C82.0887 103.372 81.547 103.642 81.0303 103.642C80.1475 103.642 79.0441 103.186 79 101.817C79.0426 100.415 80.6899 99.2449 82.2733 98.1203C82.3267 98.0824 82.3799 98.0446 82.4331 98.0068C82.4362 98.0045 82.4393 98.0023 82.4425 98C82.4425 98 82.4425 98 82.4426 98.0001C82.4426 98 82.4426 98 82.4426 98C82.4458 98.0023 82.4489 98.0045 82.452 98.0068Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        },
 
-                /***/
-            },
+        './img/7 бубны.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M11.616 22.776C11.616 16.2 13.272 13.512 15.6 9V6H6.432V8.208H13.632C11.28 12.6 9.216 16.128 9.216 23.184V24H11.616V22.776Z' fill='black'/%3e %3cpath d='M83.384 109.224C83.384 115.8 81.728 118.488 79.4 123L79.4 126L88.568 126L88.568 123.792L81.368 123.792C83.72 119.4 85.784 115.872 85.784 108.816L85.784 108L83.384 108L83.384 109.224Z' fill='black'/%3e %3cpath d='M48 54.0002L58.2705 66.7817L48 79.4994L37.7295 66.7817L48 54.0002Z' fill='%23FF4545'/%3e %3cpath d='M12.3748 28L15.0933 31.3832L12.3748 34.7495L9.6562 31.3832L12.3748 28Z' fill='%23FF4545'/%3e %3cpath d='M82.3748 97L85.0933 100.383L82.3748 103.75L79.6562 100.383L82.3748 97Z' fill='%23FF4545'/%3e %3c/svg%3e"
+        },
 
-        /***/ './img/7 крести.svg':
-            /*!**************************!*\
-  !*** ./img/7 крести.svg ***!
-  \**************************/
-            /***/ (module) => {
-                module.exports =
-                    "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M11.616 22.776C11.616 16.2 13.272 13.512 15.6 9V6H6.432V8.208H13.632C11.28 12.6 9.216 16.128 9.216 23.184V24H11.616V22.776Z' fill='black'/%3e %3cpath d='M83.384 109.224C83.384 115.8 81.728 118.488 79.4 123L79.4 126L88.568 126L88.568 123.792L81.368 123.792C83.72 119.4 85.784 115.872 85.784 108.816L85.784 108L83.384 108L83.384 109.224Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.059 31.8261C12.3214 31.4516 12.7305 30.6511 12.7305 30.0813C12.7305 29.4456 12.3832 29 11.878 29C11.3096 29 10.9939 29.4534 10.9939 30.0813C10.9939 30.5377 11.386 31.3628 11.6487 31.7793C11.2636 31.5033 10.4461 31.0688 10.0084 31.0688C9.42289 31.0688 9 31.4074 9 32.0168C9 32.5585 9.41556 32.9309 10.0084 32.9309C10.5668 32.9309 11.3808 32.4356 11.7115 32.1536L10.9297 35C11.6747 34.717 12.1478 34.7115 12.8594 35L12.0182 32.1514C12.3266 32.425 13.1455 32.9309 13.7161 32.9309C14.309 32.9309 14.7246 32.5585 14.7246 32.0168C14.7246 31.4074 14.3017 31.0688 13.7161 31.0688C13.2616 31.0688 12.4151 31.5482 12.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M83.059 100.174C83.3214 100.548 83.7305 101.349 83.7305 101.919C83.7305 102.554 83.3832 103 82.878 103C82.3096 103 81.9939 102.547 81.9939 101.919C81.9939 101.462 82.386 100.637 82.6487 100.221C82.2636 100.497 81.4461 100.931 81.0084 100.931C80.4229 100.931 80 100.593 80 99.9832C80 99.4415 80.4156 99.0691 81.0084 99.0691C81.5668 99.0691 82.3808 99.5644 82.7115 99.8464L81.9297 97C82.6747 97.283 83.1478 97.2885 83.8594 97L83.0182 99.8486C83.3266 99.575 84.1455 99.0691 84.7161 99.0691C85.309 99.0691 85.7246 99.4415 85.7246 99.9832C85.7246 100.593 85.3017 100.931 84.7161 100.931C84.2616 100.931 83.4151 100.452 83.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+        './img/7 крести.svg': (module) => {
+            module.exports =
+                "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M11.616 22.776C11.616 16.2 13.272 13.512 15.6 9V6H6.432V8.208H13.632C11.28 12.6 9.216 16.128 9.216 23.184V24H11.616V22.776Z' fill='black'/%3e %3cpath d='M83.384 109.224C83.384 115.8 81.728 118.488 79.4 123L79.4 126L88.568 126L88.568 123.792L81.368 123.792C83.72 119.4 85.784 115.872 85.784 108.816L85.784 108L83.384 108L83.384 109.224Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.059 31.8261C12.3214 31.4516 12.7305 30.6511 12.7305 30.0813C12.7305 29.4456 12.3832 29 11.878 29C11.3096 29 10.9939 29.4534 10.9939 30.0813C10.9939 30.5377 11.386 31.3628 11.6487 31.7793C11.2636 31.5033 10.4461 31.0688 10.0084 31.0688C9.42289 31.0688 9 31.4074 9 32.0168C9 32.5585 9.41556 32.9309 10.0084 32.9309C10.5668 32.9309 11.3808 32.4356 11.7115 32.1536L10.9297 35C11.6747 34.717 12.1478 34.7115 12.8594 35L12.0182 32.1514C12.3266 32.425 13.1455 32.9309 13.7161 32.9309C14.309 32.9309 14.7246 32.5585 14.7246 32.0168C14.7246 31.4074 14.3017 31.0688 13.7161 31.0688C13.2616 31.0688 12.4151 31.5482 12.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M83.059 100.174C83.3214 100.548 83.7305 101.349 83.7305 101.919C83.7305 102.554 83.3832 103 82.878 103C82.3096 103 81.9939 102.547 81.9939 101.919C81.9939 101.462 82.386 100.637 82.6487 100.221C82.2636 100.497 81.4461 100.931 81.0084 100.931C80.4229 100.931 80 100.593 80 99.9832C80 99.4415 80.4156 99.0691 81.0084 99.0691C81.5668 99.0691 82.3808 99.5644 82.7115 99.8464L81.9297 97C82.6747 97.283 83.1478 97.2885 83.8594 97L83.0182 99.8486C83.3266 99.575 84.1455 99.0691 84.7161 99.0691C85.309 99.0691 85.7246 99.4415 85.7246 99.9832C85.7246 100.593 85.3017 100.931 84.7161 100.931C84.2616 100.931 83.4151 100.452 83.059 100.174Z' fill='black'/%3e %3c/svg%3e"
+        },
 
-                /***/
-            },
+         './img/7 пики.svg':
 
-        /***/ './img/7 пики.svg':
-            /*!************************!*\
-  !*** ./img/7 пики.svg ***!
-  \************************/
-            /***/ (module) => {
+             (module) => {
                 module.exports =
                     "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M11.616 22.776C11.616 16.2 13.272 13.512 15.6 9V6H6.432V8.208H13.632C11.28 12.6 9.216 16.128 9.216 23.184V24H11.616V22.776Z' fill='black'/%3e %3cpath d='M83.384 109.224C83.384 115.8 81.728 118.488 79.4 123L79.4 126L88.568 126L88.568 123.792L81.368 123.792C83.72 119.4 85.784 115.872 85.784 108.816L85.784 108L83.384 108L83.384 109.224Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4519 29.007C12.5627 29.0908 12.6744 29.1747 12.7864 29.2589C14.3251 30.4148 15.9323 31.6223 15.9734 33.0588C15.9293 34.5147 14.9141 35 14.0314 35C13.5147 35 12.923 34.7127 12.4824 34.2311C12.0887 34.7127 11.547 35 11.0303 35C10.1475 35 9.04414 34.5147 9 33.0588C9.04261 31.5679 10.6899 30.3238 12.2733 29.1279C12.3266 29.0876 12.3799 29.0473 12.4331 29.0071C12.4362 29.0047 12.4393 29.0023 12.4425 28.9999C12.4425 28.9999 12.4425 28.9999 12.4426 28.9999C12.4426 28.9999 12.4426 28.9999 12.4426 28.9999C12.4458 29.0023 12.4489 29.0047 12.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.5214 103.635C82.4107 103.557 82.299 103.478 82.1869 103.399C80.6483 102.312 79.0411 101.176 79 99.8254C79.0441 98.4564 80.0593 98 80.942 98C81.4587 98 82.0504 98.2702 82.4909 98.7231C82.8847 98.2702 83.4264 98 83.9431 98C84.8258 98 85.9293 98.4564 85.9734 99.8254C85.9308 101.227 84.2835 102.397 82.7001 103.522C82.6467 103.56 82.5934 103.598 82.5403 103.635C82.5372 103.638 82.534 103.64 82.5309 103.642C82.5309 103.642 82.5309 103.642 82.5308 103.642C82.5308 103.642 82.5308 103.642 82.5308 103.642C82.5276 103.64 82.5245 103.638 82.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
 
@@ -1076,33 +907,27 @@
                 /***/
             },
 
-        /***/ './img/король крести.svg':
-            /*!*******************************!*\
-  !*** ./img/король крести.svg ***!
-  \*******************************/
-            /***/ (module) => {
+         './img/король крести.svg':
+
+             (module) => {
                 module.exports =
                     "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M10.176 6H7.776V24H10.176V15.144L15.48 24H18.36L12.672 14.616L18.072 6H15.432L10.176 14.76V6Z' fill='black'/%3e %3cpath d='M84.824 126L87.224 126L87.224 108L84.824 108L84.824 116.856L79.52 108L76.64 108L82.328 117.384L76.928 126L79.568 126L84.824 117.24L84.824 126Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3189 66.7767C49.4121 65.2172 51.118 61.8801 51.118 59.5052C51.118 56.8565 49.6708 55 47.5657 55C45.1976 55 43.8819 56.8893 43.8819 59.5052C43.8819 61.4076 45.5171 64.8472 46.6115 66.5821C45.0078 65.4322 41.5999 63.6209 39.7757 63.6209C37.336 63.6209 35.574 65.0315 35.574 67.5707C35.574 69.8278 37.3055 71.3795 39.7757 71.3795C42.1019 71.3795 45.4924 69.3165 46.8711 68.1414L43.6141 79.9999C46.7182 78.8205 48.6891 78.7977 51.6541 79.9999L48.1494 68.1312C49.4342 69.2714 52.8464 71.3795 55.2243 71.3795C57.6946 71.3795 59.4261 69.8278 59.4261 67.5707C59.4261 65.0315 57.6641 63.6209 55.2243 63.6209C53.3302 63.6209 49.8022 65.619 48.3189 66.7767Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.059 31.8261C12.3214 31.4516 12.7305 30.6511 12.7305 30.0813C12.7305 29.4456 12.3832 29 11.878 29C11.3096 29 10.9939 29.4534 10.9939 30.0813C10.9939 30.5377 11.386 31.3628 11.6487 31.7793C11.2636 31.5033 10.4461 31.0688 10.0084 31.0688C9.42289 31.0688 9 31.4074 9 32.0168C9 32.5585 9.41556 32.9309 10.0084 32.9309C10.5668 32.9309 11.3808 32.4356 11.7115 32.1536L10.9297 35C11.6747 34.717 12.1478 34.7115 12.8594 35L12.0182 32.1514C12.3266 32.425 13.1455 32.9309 13.7161 32.9309C14.309 32.9309 14.7246 32.5585 14.7246 32.0168C14.7246 31.4074 14.3017 31.0688 13.7161 31.0688C13.2616 31.0688 12.4151 31.5482 12.059 31.8261Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M83.059 100.174C83.3214 100.548 83.7305 101.349 83.7305 101.919C83.7305 102.554 83.3832 103 82.878 103C82.3096 103 81.9939 102.547 81.9939 101.919C81.9939 101.462 82.386 100.637 82.6487 100.221C82.2636 100.497 81.4461 100.931 81.0084 100.931C80.4229 100.931 80 100.593 80 99.9832C80 99.4415 80.4156 99.0691 81.0084 99.0691C81.5668 99.0691 82.3808 99.5644 82.7115 99.8464L81.9297 97C82.6747 97.283 83.1478 97.2885 83.8594 97L83.0182 99.8486C83.3266 99.575 84.1455 99.0691 84.7161 99.0691C85.309 99.0691 85.7246 99.4415 85.7246 99.9832C85.7246 100.593 85.3017 100.931 84.7161 100.931C84.2616 100.931 83.4151 100.452 83.059 100.174Z' fill='black'/%3e %3c/svg%3e"
 
-                /***/
+                
             },
 
-        /***/ './img/король пики.svg':
-            /*!*****************************!*\
-  !*** ./img/король пики.svg ***!
-  \*****************************/
-            /***/ (module) => {
+         './img/король пики.svg':
+
+             (module) => {
                 module.exports =
                     "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M10.176 6H7.776V24H10.176V15.144L15.48 24H18.36L12.672 14.616L18.072 6H15.432L10.176 14.76V6Z' fill='black'/%3e %3cpath d='M84.824 126L87.224 126L87.224 108L84.824 108L84.824 116.856L79.52 108L76.64 108L82.328 117.384L76.928 126L79.568 126L84.824 117.24L84.824 126Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.4946 76.7216C49.3283 78.7749 51.7912 80 53.9419 80C57.6159 80 61.841 77.9312 62.0247 71.7248C61.8538 65.601 55.1644 60.4538 48.7603 55.5261C48.2805 55.1569 47.8024 54.789 47.3287 54.422C47.3287 54.422 47.3287 54.4221 47.3286 54.4221C47.3286 54.4221 47.3286 54.422 47.3286 54.422C47.0942 54.6036 46.8591 54.7854 46.6238 54.9675C40.0334 60.0656 33.1774 65.3692 33 71.7248C33.1837 77.9312 37.7762 80 41.4502 80C43.6009 80 45.8557 78.7749 47.4946 76.7216Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4519 29.007C12.5627 29.0908 12.6744 29.1747 12.7864 29.2589C14.3251 30.4148 15.9323 31.6223 15.9734 33.0588C15.9293 34.5147 14.9141 35 14.0314 35C13.5147 35 12.923 34.7127 12.4824 34.2311C12.0887 34.7127 11.547 35 11.0303 35C10.1475 35 9.04414 34.5147 9 33.0588C9.04261 31.5679 10.6899 30.3238 12.2733 29.1279C12.3266 29.0876 12.3799 29.0473 12.4331 29.0071C12.4362 29.0047 12.4393 29.0023 12.4425 28.9999C12.4425 28.9999 12.4425 28.9999 12.4426 28.9999C12.4426 28.9999 12.4426 28.9999 12.4426 28.9999C12.4458 29.0023 12.4489 29.0047 12.4519 29.007Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.5214 103.635C82.4107 103.557 82.299 103.478 82.1869 103.399C80.6483 102.312 79.0411 101.176 79 99.8254C79.0441 98.4564 80.0593 98 80.942 98C81.4587 98 82.0504 98.2702 82.4909 98.7231C82.8847 98.2702 83.4264 98 83.9431 98C84.8258 98 85.9293 98.4564 85.9734 99.8254C85.9308 101.227 84.2835 102.397 82.7001 103.522C82.6467 103.56 82.5934 103.598 82.5403 103.635C82.5372 103.638 82.534 103.64 82.5309 103.642C82.5309 103.642 82.5309 103.642 82.5308 103.642C82.5308 103.642 82.5308 103.642 82.5308 103.642C82.5276 103.64 82.5245 103.638 82.5214 103.635Z' fill='black'/%3e %3c/svg%3e"
 
-                /***/
+                
             },
 
-        /***/ './img/король черви.svg':
-            /*!******************************!*\
-  !*** ./img/король черви.svg ***!
-  \******************************/
-            /***/ (module) => {
+         './img/король черви.svg':
+
+             (module) => {
                 module.exports =
                     "data:image/svg+xml,%3csvg width='95' height='133' viewBox='0 0 95 133' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3crect width='95' height='133' rx='4' fill='white'/%3e %3cpath d='M10.176 6H7.776V24H10.176V15.144L15.48 24H18.36L12.672 14.616L18.072 6H15.432L10.176 14.76V6Z' fill='black'/%3e %3cpath d='M84.824 126L87.224 126L87.224 108L84.824 108L84.824 116.856L79.52 108L76.64 108L82.328 117.384L76.928 126L79.568 126L84.824 117.24L84.824 126Z' fill='black'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.53 57.2785C45.6964 55.2252 43.2335 54.0001 41.0828 54.0001C37.4088 54.0001 33.1837 56.0689 33 62.2754C33.1709 68.3992 39.8603 73.5464 46.2644 78.474C46.7441 78.8432 47.2223 79.2111 47.696 79.5781C47.696 79.5781 47.696 79.5781 47.696 79.578C47.6961 79.5781 47.6961 79.5781 47.6961 79.5781C47.9305 79.3965 48.1655 79.2147 48.4009 79.0326C54.9912 73.9345 61.8473 68.6309 62.0247 62.2754C61.841 56.0689 57.2485 54.0001 53.5745 54.0001C51.4238 54.0001 49.169 55.2252 47.53 57.2785Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.5214 34.9928C12.4107 34.9091 12.299 34.8252 12.1869 34.741C10.6483 33.5851 9.04106 32.3776 9 30.9411C9.04414 29.4852 10.0593 28.9999 10.942 28.9999C11.4587 28.9999 12.0504 29.2872 12.4909 29.7688C12.8847 29.2872 13.4264 28.9999 13.9431 28.9999C14.8258 28.9999 15.9293 29.4852 15.9734 30.9411C15.9308 32.432 14.2835 33.6761 12.7001 34.872C12.6467 34.9123 12.5935 34.9526 12.5403 34.9928C12.5372 34.9952 12.5341 34.9976 12.5309 35C12.5309 35 12.5309 35 12.5308 34.9999C12.5308 35 12.5308 35 12.5308 35C12.5276 34.9976 12.5245 34.9952 12.5214 34.9928Z' fill='%23FF4545'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M82.452 98.0068C82.5627 98.0855 82.6744 98.1644 82.7864 98.2436C84.3251 99.3305 85.9323 100.466 85.9734 101.817C85.9293 103.186 84.9141 103.642 84.0314 103.642C83.5147 103.642 82.923 103.372 82.4824 102.919C82.0887 103.372 81.547 103.642 81.0303 103.642C80.1475 103.642 79.0441 103.186 79 101.817C79.0426 100.415 80.6899 99.2449 82.2733 98.1203C82.3267 98.0824 82.3799 98.0446 82.4331 98.0068C82.4362 98.0045 82.4393 98.0023 82.4425 98C82.4425 98 82.4425 98 82.4426 98.0001C82.4426 98 82.4426 98 82.4426 98C82.4458 98.0023 82.4489 98.0045 82.452 98.0068Z' fill='%23FF4545'/%3e %3c/svg%3e"
 
@@ -1465,10 +1290,10 @@
                         /* harmony export */
                     }
                 )
-                /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ =
-                    __webpack_require__(/*! ./index.css */ './index.css')
-                /* harmony import */ var _cards__WEBPACK_IMPORTED_MODULE_1__ =
-                    __webpack_require__(/*! ./cards */ './cards.ts')
+                / var _index_css__WEBPACK_IMPORTED_MODULE_0__ =
+                    __webpack_require__('./index.css')
+                 var _cards__WEBPACK_IMPORTED_MODULE_1__ =
+                    __webpack_require__('./cards.ts')
 
                 var row = document.querySelector('.row1')
                 var size = 0
@@ -1599,7 +1424,7 @@
                     )
                     var winimg = document.createElement('img')
                     winimg.src = __webpack_require__(
-                        /*! ./img/celebrate.svg */ './img/celebrate.svg'
+                         './img/celebrate.svg'
                     )
                     winimg.classList.add('win-img')
                     windiv.appendChild(winimg)
@@ -1673,14 +1498,13 @@
                     else return true
                 }
 
-                /***/
+                
             },
 
-        /***/ './index.ts':
-            /*!******************!*\
-  !*** ./index.ts ***!
-  \******************/
-            /***/ (
+         './index.ts':
+         
+  
+             (
                 __unused_webpack_module,
                 __webpack_exports__,
                 __webpack_require__
@@ -1688,232 +1512,181 @@
                 'use strict'
                 __webpack_require__.r(__webpack_exports__)
 
-                /***/
+                
             },
 
-        /***/ './Stratos/Web Fonts/stratosskyengweb-black.woff':
-            /*!*******************************************************!*\
-  !*** ./Stratos/Web Fonts/stratosskyengweb-black.woff ***!
-  \*******************************************************/
-            /***/ (module, __unused_webpack_exports, __webpack_require__) => {
+         './Stratos/Web Fonts/stratosskyengweb-black.woff':
+     
+             (module, __unused_webpack_exports, __webpack_require__) => {
                 'use strict'
                 module.exports =
                     __webpack_require__.p + 'e23eaa28311b694d782e.woff'
 
-                /***/
+                
             },
 
-        /***/ './Stratos/Web fonts/stratosskyengweb-black.woff2':
-            /*!********************************************************!*\
-  !*** ./Stratos/Web fonts/stratosskyengweb-black.woff2 ***!
-  \********************************************************/
-            /***/ (module, __unused_webpack_exports, __webpack_require__) => {
+         './Stratos/Web fonts/stratosskyengweb-black.woff2':
+            
+             (module, __unused_webpack_exports, __webpack_require__) => {
                 'use strict'
                 module.exports =
                     __webpack_require__.p + '3e7fbd1c96136268b439.woff2'
 
-                /***/
+                
             },
 
-        /******/
+        
     }
-    /************************************************************************/
-    /******/ // The module cache
-    /******/ var __webpack_module_cache__ = {}
-    /******/
-    /******/ // The require function
-    /******/ function __webpack_require__(moduleId) {
-        /******/ // Check if module is in cache
-        /******/ var cachedModule = __webpack_module_cache__[moduleId]
-        /******/ if (cachedModule !== undefined) {
-            /******/ return cachedModule.exports
-            /******/
+    
+     var __webpack_module_cache__ = {}
+    
+     function __webpack_require__(moduleId) {
+         var cachedModule = __webpack_module_cache__[moduleId]
+         if (cachedModule !== undefined) {
+             return cachedModule.exports
+            
         }
-        /******/ // Create a new module (and put it into the cache)
-        /******/ var module = (__webpack_module_cache__[moduleId] = {
-            /******/ id: moduleId,
-            /******/ // no module.loaded needed
-            /******/ exports: {},
-            /******/
+         var module = (__webpack_module_cache__[moduleId] = {
+             id: moduleId,
+             exports: {},
+            
         })
-        /******/
-        /******/ // Execute the module function
-        /******/ __webpack_modules__[moduleId](
+        
+         __webpack_modules__[moduleId](
             module,
             module.exports,
             __webpack_require__
         )
-        /******/
-        /******/ // Return the exports of the module
-        /******/ return module.exports
-        /******/
+        
+         return module.exports
+        
     }
-    /******/
-    /******/ // expose the modules object (__webpack_modules__)
-    /******/ __webpack_require__.m =
-        __webpack_modules__ /* webpack/runtime/compat get default export */
-    /******/
-    /************************************************************************/
-    /******/
-    /******/
+   
+     __webpack_require__.m =
+        __webpack_modules__ 
+   
     ;(() => {
-        /******/ // getDefaultExport function for compatibility with non-harmony modules
+       
         /******/ __webpack_require__.n = (module) => {
-            /******/ var getter =
+             var getter =
                 module && module.__esModule
-                    ? /******/ () => module['default']
-                    : /******/ () => module
-            /******/ __webpack_require__.d(getter, { a: getter })
-            /******/ return getter
-            /******/
+                    ?  () => module['default']
+                    :  () => module
+             __webpack_require__.d(getter, { a: getter })
+             return getter
+            
         }
-        /******/
-    })() /* webpack/runtime/define property getters */
-    /******/
-    /******/
-    /******/
+    
+    })() 
+    
     ;(() => {
-        /******/ // define getter functions for harmony exports
-        /******/ __webpack_require__.d = (exports, definition) => {
-            /******/ for (var key in definition) {
-                /******/ if (
+        
+         __webpack_require__.d = (exports, definition) => {
+             for (var key in definition) {
+                 if (
                     __webpack_require__.o(definition, key) &&
                     !__webpack_require__.o(exports, key)
                 ) {
-                    /******/ Object.defineProperty(exports, key, {
+                     Object.defineProperty(exports, key, {
                         enumerable: true,
                         get: definition[key],
                     })
-                    /******/
+                    
                 }
-                /******/
+                
             }
-            /******/
+            
         }
-        /******/
-    })() /* webpack/runtime/global */
-    /******/
-    /******/
-    /******/
+        
+    })() 
+    
+    
+    
     ;(() => {
-        /******/ __webpack_require__.g = (function () {
-            /******/ if (typeof globalThis === 'object') return globalThis
-            /******/ try {
-                /******/ return this || new Function('return this')()
-                /******/
+         __webpack_require__.g = (function () {
+             if (typeof globalThis === 'object') return globalThis
+             try {
+                 return this || new Function('return this')()
+                
             } catch (e) {
-                /******/ if (typeof window === 'object') return window
-                /******/
+                 if (typeof window === 'object') return window
+                
             }
-            /******/
+            
         })()
-        /******/
-    })() /* webpack/runtime/hasOwnProperty shorthand */
-    /******/
-    /******/
-    /******/
+        
+    })() 
+ 
     ;(() => {
-        /******/ __webpack_require__.o = (obj, prop) =>
+         __webpack_require__.o = (obj, prop) =>
             Object.prototype.hasOwnProperty.call(obj, prop)
-        /******/
-    })() /* webpack/runtime/make namespace object */
-    /******/
-    /******/
-    /******/
+       
+    })()
+
     ;(() => {
-        /******/ // define __esModule on exports
-        /******/ __webpack_require__.r = (exports) => {
-            /******/ if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-                /******/ Object.defineProperty(exports, Symbol.toStringTag, {
+        
+         __webpack_require__.r = (exports) => {
+             if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+                Object.defineProperty(exports, Symbol.toStringTag, {
                     value: 'Module',
                 })
-                /******/
+               
             }
-            /******/ Object.defineProperty(exports, '__esModule', {
+           Object.defineProperty(exports, '__esModule', {
                 value: true,
             })
-            /******/
+           
         }
-        /******/
-    })() /* webpack/runtime/publicPath */
-    /******/
-    /******/
-    /******/
+    
+    })() 
+
     ;(() => {
-        /******/ var scriptUrl
-        /******/ if (__webpack_require__.g.importScripts)
+        var scriptUrl
+        if (__webpack_require__.g.importScripts)
             scriptUrl = __webpack_require__.g.location + ''
-        /******/ var document = __webpack_require__.g.document
-        /******/ if (!scriptUrl && document) {
-            /******/ if (document.currentScript)
-                /******/ scriptUrl = document.currentScript.src
-            /******/ if (!scriptUrl) {
-                /******/ var scripts = document.getElementsByTagName('script')
-                /******/ if (scripts.length)
+       var document = __webpack_require__.g.document
+        if (!scriptUrl && document) {
+             if (document.currentScript)
+                scriptUrl = document.currentScript.src
+             if (!scriptUrl) {
+               var scripts = document.getElementsByTagName('script')
+                if (scripts.length)
                     scriptUrl = scripts[scripts.length - 1].src
-                /******/
+               
             }
-            /******/
+        
         }
-        /******/ // When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-        /******/ // or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-        /******/ if (!scriptUrl)
+       if (!scriptUrl)
             throw new Error(
                 'Automatic publicPath is not supported in this browser'
             )
-        /******/ scriptUrl = scriptUrl
+       scriptUrl = scriptUrl
             .replace(/#.*$/, '')
             .replace(/\?.*$/, '')
             .replace(/\/[^\/]+$/, '/')
-        /******/ __webpack_require__.p = scriptUrl
-        /******/
-    })() /* webpack/runtime/jsonp chunk loading */
-    /******/
-    /******/
-    /******/
+        __webpack_require__.p = scriptUrl
+        
+    })() 
+ 
     ;(() => {
-        /******/ __webpack_require__.b = document.baseURI || self.location.href
-        /******/
-        /******/ // object to store loaded and loading chunks
-        /******/ // undefined = chunk not loaded, null = chunk preloaded/prefetched
-        /******/ // [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-        /******/ var installedChunks = {
-            /******/ game: 0,
-            /******/
+       __webpack_require__.b = document.baseURI || self.location.href
+     
+       var installedChunks = {
+            game: 0,
+           
         }
-        /******/
-        /******/ // no chunk on demand loading
-        /******/
-        /******/ // no prefetching
-        /******/
-        /******/ // no preloaded
-        /******/
-        /******/ // no HMR
-        /******/
-        /******/ // no HMR manifest
-        /******/
-        /******/ // no on chunks loaded
-        /******/
-        /******/ // no jsonp function
-        /******/
-    })() /* webpack/runtime/nonce */
-    /******/
-    /******/
-    /******/
+
+        
+    })() 
+  
     ;(() => {
-        /******/ __webpack_require__.nc = undefined
-        /******/
-    })()
-    /******/
-    /************************************************************************/
-    /******/
-    /******/ // startup
-    /******/ // Load entry module and return exports
-    /******/ // This entry module is referenced by other modules so it can't be inlined
-    /******/ __webpack_require__('./cards.ts')
-    /******/ __webpack_require__('./game.ts')
-    /******/ var __webpack_exports__ = __webpack_require__('./index.ts')
-    /******/
-    /******/
+        __webpack_require__.nc = undefined
+       
+
+     __webpack_require__('./cards.ts')
+     __webpack_require__('./game.ts')
+     var __webpack_exports__ = __webpack_require__('./index.ts')
+    
+    
 })()
-//# sourceMappingURL=game.js.map
+
