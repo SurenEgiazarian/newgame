@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Skyeng';
+    src: url(/dist/static/fonts/stratosskyengweb-regular.woff2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    background-color: #004980;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 22px;
+    padding-left: 22px;
+
+    &__start-window,
+    &__final-window {
+        width: 480px;
+        height: 459px;
+        border-radius: 12px;
+        background-color: #c2f5ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__header {
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #004980;
+    }
+
+    &__menu-difficulty {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin: 48px 0 67px 0;
+    }
+
+    &__menu {
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__button {
+        background: #7ac100;
+        border-radius: 12px;
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #ffffff;
+        border: #7ac100;
+
+        &_start {
+            width: 246px;
+            height: 50px;
+        }
+
+        &_play-again {
+            width: 246px;
+            height: 50px;
+        }
+    }
+
+    &__time {
+        width: 155px;
+    }
+
+    &__time-titles {
+        display: flex;
+    }
+
+    &__time-title {
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #ffffff;
+
+        &_min {
+            padding-left: 39px;
+            padding-right: 0;
+        }
+
+        &_sec {
+            padding-left: 57px;
+            padding-right: 0;
+        }
+    }
+
+    &__time-digits {
+        display: flex;
+    }
+
+    &__time-digit {
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 72px;
+        color: #ffffff;
+    }
+
+    &__card-field {
+        width: 95vw;
+    }
+
+    &__card-field {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 35px;
+    }
+
+    &__card {
+        width: 95px;
+        height: 133px;
+    }
+
+    &__final-img {
+        margin-top: 30px;
+    }
+
+    &__final-time-title {
+        margin: 0;
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #000000;
+    }
+
+    &__final-time-digit {
+        margin-bottom: 40px;
+        margin-top: 10px;
+        font-family: 'Skyeng';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 72px;
+        color: #000000;
+    }
+}
+
+.difficulty {
+    width: 98px;
+    height: 98px;
+    font-family: 'Skyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0080c1;
+    background: #ffffff;
+    border-radius: 12px;
+    border: #ffffff;
+}
+
+.difficulty_active {
+    border: 3px solid #004980;
+}
+
+.warning {
+    font-family: 'Skyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: red;
+
+    &_hidden {
+        display: none;
+    }
+}
+
+.position-top {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
