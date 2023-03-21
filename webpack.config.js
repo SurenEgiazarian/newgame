@@ -1,28 +1,29 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const mode =
-    process.env.NODE_ENV === 'production' ? 'production' : 'development'
+    process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
 module.exports = {
-    entry: {
-        start: ['./difficulty.ts', './index.ts'],
-        game: ['./cards.ts', './game.ts', './index.ts'],
-    },
+    entry: './src/index.ts',
+    mode: 'production',
     module: {
         rules: [
-            { test: /\.css$/, use: ['style-loader', 'css-loader'] },
             {
                 test: /\.ts$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
             {
-                test: /\.svg/,
-                use: {
-                    loader: 'svg-url-loader',
-                    options: {},
-                },
+                test: /\.css$/,
+                use: [MiniCssExtractPlugin.loader, 'css-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
@@ -30,32 +31,26 @@ module.exports = {
             },
         ],
     },
-    mode: mode,
     resolve: {
         extensions: ['.ts', '.js'],
     },
-    devtool:
-        process.env.NODE_ENV === 'production'
-            ? 'hidden-source-map'
-            : 'source-map',
+    optimization: {
+        minimizer: ['...', new CssMinimizerPlugin()],
+    },
+    devtool: process.env.NODE_ENV === 'production' ? false : 'source-map',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js',
+        filename: 'bundle.js',
+        clean: true,
     },
     plugins: [
+        new CopyPlugin({
+            patterns: [{ from: 'static', to: 'static' }],
+        }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: 'index.html',
-            chunks: ['start'],
+            template: './index.html',
         }),
-        new HtmlWebpackPlugin({
-            filename: 'game.html',
-            template: 'game.html',
-            chunks: ['game'],
-        }),
+        new MiniCssExtractPlugin(),
     ],
-    performance: {
-        maxAssetSize: 4000000,
-        maxEntrypointSize: 4000000,
-    },
-}
+};
